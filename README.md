@@ -1,6 +1,6 @@
 # Platformer-4D
 
-## Description
+## Beschreibung
  
 
 Das Projekt handelt von einem Plattformer Spiel, welches in verschiedene Level aufgebaut ist. 
@@ -11,10 +11,10 @@ Wir benutzen Unreal Engine 5 für unser Spiel, und möchten bei der Grafik einen
 
 ## Technologien:
 
-Unrealengine 5
-Quarkus
-Typescript
-HTML/CSS
+- Unrealengine 5 
+- Quarkus
+- Typescript
+- HTML/CSS
 
 
 ## Links:
