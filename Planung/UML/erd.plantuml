@@ -1,0 +1,35 @@
+@startuml
+package "erd Litzlbauer, Pouget 24.01.2022"{
+	entity User{
+		* Name : text : <<PK>>
+		---
+		* password : text (hashed and salted)
+		* e-mail : text
+	}
+	
+	entity Level{
+		* Id : number : <<PK>>
+		---
+		* name : text
+	}
+	
+	entity Run{
+		* LevelId : number : <<PK, FK>>
+		* SpeedrunId : number : <<PK, FK>>
+		---
+		duration : time
+	}
+	
+	entity Speedrun{
+		* UserId : number : <<PK, FK>>
+		---
+		* LevelId : <<FK>>
+		* Videolink : text (url) 
+	}
+	
+	User }o--|| Run
+	Level }o--|| Run
+	Run }o--|| Speedrun
+	Speedrun --|{ Level 
+}
+@enduml

@@ -961,3 +961,688 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2022.01.17-08.03.54:019][163]LogSlate: Window 'Editor Preferences' being destroyed
 [2022.01.17-08.03.54:024][163]LogSlate: Window 'Editor Preferences' being destroyed
 [2022.01.17-08.04.20:996][718]LogSlate: Window 'Source Control Login' being destroyed
+[2022.01.17-09.03.49:081][662]LogAudioMixer: Resetting audio stream to device id 
+[2022.01.17-09.03.49:095][662]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.17-09.03.49:095][662]LogAudioMixer: Display: 1: FrontRight
+[2022.01.17-09.03.52:096][671]LogAudioMixer: Resetting audio stream to device id 
+[2022.01.17-09.56.58:746][671]LogHttp: Warning: 0000084BF8532300: HTTP request timed out after 3190.12 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-09.56.58:747][671]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.17-09.56.58:747][671]LogAudioMixer: Display: 1: FrontRight
+[2022.01.17-09.56.58:848][672]LogHttp: Warning: 0000084BF8532300: request failed, libcurl error: 0 (No error)
+[2022.01.17-09.56.58:848][672]LogHttp: Warning: 0000084BF8532300: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x84bb48a00c0 [can pipeline])
+[2022.01.17-09.56.58:848][672]LogHttp: Warning: 0000084BF8532300: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2022.01.17-09.56.58:848][672]LogHttp: Warning: 0000084BF8532300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.239.31.174) port 443 (#0))
+[2022.01.17-09.56.58:848][672]LogHttp: Warning: 0000084BF8532300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2022.01.17-09.56.58:848][672]LogHttp: Warning: 0000084BF8532300: libcurl info message cache 4 (Closing connection 0)
+[2022.01.17-09.56.58:848][672]LogHttp: Warning: 0000084BF8532300: libcurl info message cache 5 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2022.01.17-09.56.59:325][672]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-09.56.59:325][672]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2022.01.17-09.56.59:335][672]LogAudioMixer: Resetting audio stream to device id 
+[2022.01.17-09.56.59:374][672]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.17-09.56.59:374][672]LogAudioMixer: Display: 1: FrontRight
+[2022.01.17-09.57.00:153][673]LogHttp: Warning: 0000084BF853A000: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-09.57.00:242][673]LogHttp: Warning: 0000084BF853A000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-09.57.00:242][673]LogHttp: Warning: 0000084BF853A000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-09.57.00:242][673]LogHttp: Warning: 0000084BF853A000: libcurl info message cache 1 (Closing connection 1)
+[2022.01.17-09.57.00:254][674]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-09.57.47:537][815]LogHttp: Warning: 0000084BF8535000: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-09.57.47:537][815]LogHttp: Warning: 0000084BF8535000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-09.57.47:537][815]LogHttp: Warning: 0000084BF8535000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-09.57.47:537][815]LogHttp: Warning: 0000084BF8535000: libcurl info message cache 1 (Closing connection 2)
+[2022.01.17-09.57.47:870][816]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-09.58.50:095][  2]LogHttp: Warning: 0000084BF8532300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-09.58.50:095][  2]LogHttp: Warning: 0000084BF8532300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-09.58.50:095][  2]LogHttp: Warning: 0000084BF8532300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-09.58.50:095][  2]LogHttp: Warning: 0000084BF8532300: libcurl info message cache 1 (Closing connection 3)
+[2022.01.17-09.58.50:095][  2]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-09.59.50:161][181]LogHttp: Warning: 0000084BF8530500: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-09.59.50:161][181]LogHttp: Warning: 0000084BF8530500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-09.59.50:161][181]LogHttp: Warning: 0000084BF8530500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-09.59.50:161][181]LogHttp: Warning: 0000084BF8530500: libcurl info message cache 1 (Closing connection 4)
+[2022.01.17-09.59.50:492][182]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.00.50:330][361]LogHttp: Warning: 0000084BF8532800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.00.50:331][361]LogHttp: Warning: 0000084BF8532800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.00.50:331][361]LogHttp: Warning: 0000084BF8532800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.00.50:331][361]LogHttp: Warning: 0000084BF8532800: libcurl info message cache 1 (Closing connection 5)
+[2022.01.17-10.00.50:663][362]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.01.50:119][540]LogHttp: Warning: 0000084BF8531400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.01.50:119][540]LogHttp: Warning: 0000084BF8531400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.01.50:119][540]LogHttp: Warning: 0000084BF8531400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.01.50:119][540]LogHttp: Warning: 0000084BF8531400: libcurl info message cache 1 (Closing connection 6)
+[2022.01.17-10.01.50:120][540]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.02.50:269][720]LogHttp: Warning: 0000084BF8535A00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.02.50:270][720]LogHttp: Warning: 0000084BF8535A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.02.50:270][720]LogHttp: Warning: 0000084BF8535A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.02.50:270][720]LogHttp: Warning: 0000084BF8535A00: libcurl info message cache 1 (Closing connection 7)
+[2022.01.17-10.02.50:270][720]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.04.02:128][935]LogHttp: Warning: 0000084BF8538C00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.04.02:128][935]LogHttp: Warning: 0000084BF8538C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.04.02:128][935]LogHttp: Warning: 0000084BF8538C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.04.02:128][935]LogHttp: Warning: 0000084BF8538C00: libcurl info message cache 1 (Closing connection 8)
+[2022.01.17-10.04.02:462][936]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.05.01:995][114]LogHttp: Warning: 0000084BF8537D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.05.01:996][114]LogHttp: Warning: 0000084BF8537D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.05.01:996][114]LogHttp: Warning: 0000084BF8537D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.05.01:996][114]LogHttp: Warning: 0000084BF8537D00: libcurl info message cache 1 (Closing connection 9)
+[2022.01.17-10.05.01:996][114]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.05.50:145][258]LogHttp: Warning: 0000084BF8536E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.05.50:145][258]LogHttp: Warning: 0000084BF8536E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.05.50:145][258]LogHttp: Warning: 0000084BF8536E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.05.50:145][258]LogHttp: Warning: 0000084BF8536E00: libcurl info message cache 1 (Closing connection 10)
+[2022.01.17-10.05.50:146][258]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.06.50:277][438]LogHttp: Warning: 0000084BF8535F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.06.50:278][438]LogHttp: Warning: 0000084BF8535F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.06.50:278][438]LogHttp: Warning: 0000084BF8535F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.06.50:278][438]LogHttp: Warning: 0000084BF8535F00: libcurl info message cache 1 (Closing connection 11)
+[2022.01.17-10.06.50:278][438]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.07.50:150][617]LogHttp: Warning: 0000084BF8534600: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.07.50:150][617]LogHttp: Warning: 0000084BF8534600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.07.50:150][617]LogHttp: Warning: 0000084BF8534600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.07.50:150][617]LogHttp: Warning: 0000084BF8534600: libcurl info message cache 1 (Closing connection 12)
+[2022.01.17-10.07.50:482][618]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.08.50:096][796]LogHttp: Warning: 0000084BF8536900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.08.50:096][796]LogHttp: Warning: 0000084BF8536900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.08.50:096][796]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.08.50:096][796]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 1 (Closing connection 13)
+[2022.01.17-10.08.50:096][796]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.10.02:202][ 11]LogHttp: Warning: 0000084BF8537D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.10.02:203][ 11]LogHttp: Warning: 0000084BF8537D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.10.02:203][ 11]LogHttp: Warning: 0000084BF8537D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.10.02:203][ 11]LogHttp: Warning: 0000084BF8537D00: libcurl info message cache 1 (Closing connection 14)
+[2022.01.17-10.10.02:534][ 12]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.10.50:285][155]LogHttp: Warning: 0000084BF8537300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.10.50:285][155]LogHttp: Warning: 0000084BF8537300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.10.50:285][155]LogHttp: Warning: 0000084BF8537300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.10.50:285][155]LogHttp: Warning: 0000084BF8537300: libcurl info message cache 1 (Closing connection 15)
+[2022.01.17-10.10.50:617][156]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.12.01:820][369]LogHttp: Warning: 0000084BF8531400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.12.01:820][369]LogHttp: Warning: 0000084BF8531400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.12.01:820][369]LogHttp: Warning: 0000084BF8531400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.12.01:820][369]LogHttp: Warning: 0000084BF8531400: libcurl info message cache 1 (Closing connection 16)
+[2022.01.17-10.12.02:155][370]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.13.02:290][550]LogHttp: Warning: 0000084BF8531900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.13.02:291][550]LogHttp: Warning: 0000084BF8531900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.13.02:291][550]LogHttp: Warning: 0000084BF8531900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.13.02:291][550]LogHttp: Warning: 0000084BF8531900: libcurl info message cache 1 (Closing connection 17)
+[2022.01.17-10.13.02:291][550]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.14.02:392][730]LogHttp: Warning: 0000084BF8532300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.14.02:393][730]LogHttp: Warning: 0000084BF8532300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.14.02:393][730]LogHttp: Warning: 0000084BF8532300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.14.02:393][730]LogHttp: Warning: 0000084BF8532300: libcurl info message cache 1 (Closing connection 18)
+[2022.01.17-10.14.02:393][730]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.14.50:157][873]LogHttp: Warning: 0000084BF8535000: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.14.50:157][873]LogHttp: Warning: 0000084BF8535000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.14.50:157][873]LogHttp: Warning: 0000084BF8535000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.14.50:157][873]LogHttp: Warning: 0000084BF8535000: libcurl info message cache 1 (Closing connection 19)
+[2022.01.17-10.14.50:487][874]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.16.02:317][ 89]LogHttp: Warning: 0000084BF8531900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.16.02:317][ 89]LogHttp: Warning: 0000084BF8531900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.16.02:317][ 89]LogHttp: Warning: 0000084BF8531900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.16.02:318][ 89]LogHttp: Warning: 0000084BF8531900: libcurl info message cache 1 (Closing connection 20)
+[2022.01.17-10.16.02:650][ 90]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.17.02:129][268]LogHttp: Warning: 0000084BF8533200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.17.02:129][268]LogHttp: Warning: 0000084BF8533200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.17.02:129][268]LogHttp: Warning: 0000084BF8533200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.17.02:129][268]LogHttp: Warning: 0000084BF8533200: libcurl info message cache 1 (Closing connection 21)
+[2022.01.17-10.17.02:129][268]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.17.50:146][411]LogHttp: Warning: 0000084BF8537D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.17.50:146][411]LogHttp: Warning: 0000084BF8537D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.17.50:146][411]LogHttp: Warning: 0000084BF8537D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.17.50:146][411]LogHttp: Warning: 0000084BF8537D00: libcurl info message cache 1 (Closing connection 22)
+[2022.01.17-10.17.50:482][412]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.18.50:104][590]LogHttp: Warning: 0000084BF8535F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.18.50:104][590]LogHttp: Warning: 0000084BF8535F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.18.50:104][590]LogHttp: Warning: 0000084BF8535F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.18.50:104][590]LogHttp: Warning: 0000084BF8535F00: libcurl info message cache 1 (Closing connection 23)
+[2022.01.17-10.18.50:104][590]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.20.01:882][804]LogHttp: Warning: 0000084BF8536900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.20.01:882][804]LogHttp: Warning: 0000084BF8536900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.20.01:882][804]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.20.01:882][804]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 1 (Closing connection 24)
+[2022.01.17-10.20.01:882][804]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.20.50:166][948]LogHttp: Warning: 0000084BF8533200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.20.50:166][948]LogHttp: Warning: 0000084BF8533200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.20.50:166][948]LogHttp: Warning: 0000084BF8533200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.20.50:166][948]LogHttp: Warning: 0000084BF8533200: libcurl info message cache 1 (Closing connection 25)
+[2022.01.17-10.20.50:166][948]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.22.02:108][163]LogHttp: Warning: 0000084BF8531E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.22.02:108][163]LogHttp: Warning: 0000084BF8531E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.22.02:108][163]LogHttp: Warning: 0000084BF8531E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.22.02:108][163]LogHttp: Warning: 0000084BF8531E00: libcurl info message cache 1 (Closing connection 26)
+[2022.01.17-10.22.02:441][164]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.23.02:373][343]LogHttp: Warning: 0000084BF8531900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.23.02:374][343]LogHttp: Warning: 0000084BF8531900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.23.02:374][343]LogHttp: Warning: 0000084BF8531900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.23.02:374][343]LogHttp: Warning: 0000084BF8531900: libcurl info message cache 1 (Closing connection 27)
+[2022.01.17-10.23.02:709][344]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.23.50:274][486]LogHttp: Warning: 0000084BF8536900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.23.50:274][486]LogHttp: Warning: 0000084BF8536900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.23.50:274][486]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.23.50:275][486]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 1 (Closing connection 28)
+[2022.01.17-10.23.50:275][486]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.24.50:179][665]LogHttp: Warning: 0000084BF8538C00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.24.50:179][665]LogHttp: Warning: 0000084BF8538C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.24.50:179][665]LogHttp: Warning: 0000084BF8538C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.24.50:179][665]LogHttp: Warning: 0000084BF8538C00: libcurl info message cache 1 (Closing connection 29)
+[2022.01.17-10.24.50:511][666]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.25.50:110][844]LogHttp: Warning: 0000084BF8531E00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.25.50:110][844]LogHttp: Warning: 0000084BF8531E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.25.50:110][844]LogHttp: Warning: 0000084BF8531E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.25.50:110][844]LogHttp: Warning: 0000084BF8531E00: libcurl info message cache 1 (Closing connection 30)
+[2022.01.17-10.25.50:111][844]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.26.50:062][ 23]LogHttp: Warning: 0000084BF8536900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.26.50:062][ 23]LogHttp: Warning: 0000084BF8536900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.26.50:062][ 23]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.26.50:062][ 23]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 1 (Closing connection 31)
+[2022.01.17-10.26.50:391][ 24]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.27.50:218][203]LogHttp: Warning: 0000084BF8536900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.27.50:218][203]LogHttp: Warning: 0000084BF8536900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.27.50:218][203]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.27.50:218][203]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 1 (Closing connection 32)
+[2022.01.17-10.27.50:547][204]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.29.02:101][418]LogHttp: Warning: 0000084BF853AF00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.29.02:101][418]LogHttp: Warning: 0000084BF853AF00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.29.02:101][418]LogHttp: Warning: 0000084BF853AF00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.29.02:101][418]LogHttp: Warning: 0000084BF853AF00: libcurl info message cache 1 (Closing connection 33)
+[2022.01.17-10.29.02:102][418]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.30.01:913][597]LogHttp: Warning: 0000084BF8536900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.30.01:913][597]LogHttp: Warning: 0000084BF8536900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.30.01:913][597]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.30.01:913][597]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 1 (Closing connection 34)
+[2022.01.17-10.30.02:244][598]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.31.02:108][777]LogHttp: Warning: 0000084BF8536900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.31.02:108][777]LogHttp: Warning: 0000084BF8536900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.31.02:108][777]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.31.02:108][777]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 1 (Closing connection 35)
+[2022.01.17-10.31.02:442][778]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.31.50:357][921]LogHttp: Warning: 0000084BF853BE00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.31.50:357][921]LogHttp: Warning: 0000084BF853BE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.31.50:357][921]LogHttp: Warning: 0000084BF853BE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.31.50:357][921]LogHttp: Warning: 0000084BF853BE00: libcurl info message cache 1 (Closing connection 36)
+[2022.01.17-10.31.50:690][922]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.33.02:109][135]LogHttp: Warning: 0000084BF8536900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.33.02:109][135]LogHttp: Warning: 0000084BF8536900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.33.02:110][135]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.33.02:110][135]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 1 (Closing connection 37)
+[2022.01.17-10.33.02:441][136]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.33.50:052][278]LogHttp: Warning: 0000084BF8536900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.33.50:052][278]LogHttp: Warning: 0000084BF8536900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.33.50:052][278]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.33.50:052][278]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 1 (Closing connection 38)
+[2022.01.17-10.33.50:052][278]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2022.01.17-10.34.27:980][390]LogUObjectHash: Compacting FUObjectHashTables data took  22.65ms
+[2022.01.17-10.34.28:029][390]LogStall: Shutdown...
+[2022.01.17-10.34.28:045][390]LogStall: Shutdown complete.
+[2022.01.17-10.34.28:186][390]LogSlate: Window 'ClockSpeed - Unreal Editor' being destroyed
+[2022.01.17-10.34.28:562][391]Cmd: QUIT_EDITOR
+[2022.01.17-10.34.28:562][391]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.01.17-10.34.28:577][391]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.01.17-10.34.28:582][391]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.01.17-10.34.28:584][391]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.01.17-10.34.28:625][391]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.01.17-10.34.28:626][391]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.01.17-10.34.28:627][391]LogAudio: Display: Audio Device unregistered from world 'FirstPersonExampleMap'.
+[2022.01.17-10.34.28:636][391]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.17-10.34.28:640][391]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.01.17-10.34.28:687][391]LogAudio: Display: Audio Device Manager Shutdown
+[2022.01.17-10.34.28:691][391]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.01.17-10.34.28:717][391]LogExit: Preparing to exit.
+[2022.01.17-10.34.29:753][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:753][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:753][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:756][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:756][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:756][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:756][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:757][391]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.01.17-10.34.29:764][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:764][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:764][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:764][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:764][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:764][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:764][391]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.01.17-10.34.29:764][391]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.01.17-10.34.29:854][391]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.01.17-10.34.30:036][391]LogExit: Editor shut down
+[2022.01.17-10.34.30:045][391]LogExit: Transaction tracking system shut down
+[2022.01.17-10.34.30:706][391]LogExit: Object subsystem successfully closed.
+[2022.01.17-10.34.30:719][391]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.01.17-10.34.30:719][391]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.01.17-10.34.30:719][391]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.01.17-10.34.30:720][391]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.01.17-10.34.30:720][391]LogShaderCompilers: Display: ================================================
+[2022.01.17-10.34.30:731][391]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.01.17-10.34.30:976][391]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (839)
+[2022.01.17-10.34.30:976][391]LogModuleManager: Shutting down and abandoning module SceneOutliner (837)
+[2022.01.17-10.34.30:977][391]LogModuleManager: Shutting down and abandoning module AddContentDialog (835)
+[2022.01.17-10.34.30:985][391]LogModuleManager: Shutting down and abandoning module WidgetCarousel (834)
+[2022.01.17-10.34.30:985][391]LogModuleManager: Shutting down and abandoning module EditorWidgets (831)
+[2022.01.17-10.34.30:985][391]LogModuleManager: Shutting down and abandoning module StatusBar (829)
+[2022.01.17-10.34.30:985][391]LogModuleManager: Shutting down and abandoning module TimeManagement (827)
+[2022.01.17-10.34.30:985][391]LogModuleManager: Shutting down and abandoning module StatsViewer (825)
+[2022.01.17-10.34.30:986][391]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (823)
+[2022.01.17-10.34.30:987][391]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (821)
+[2022.01.17-10.34.30:987][391]LogModuleManager: Shutting down and abandoning module AutomationWorker (819)
+[2022.01.17-10.34.30:987][391]LogModuleManager: Shutting down and abandoning module SteamVREditor (817)
+[2022.01.17-10.34.30:987][391]LogModuleManager: Shutting down and abandoning module OculusMR (815)
+[2022.01.17-10.34.30:987][391]LogModuleManager: Shutting down and abandoning module GooglePADEditor (813)
+[2022.01.17-10.34.30:988][391]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (811)
+[2022.01.17-10.34.30:988][391]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (809)
+[2022.01.17-10.34.30:988][391]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (807)
+[2022.01.17-10.34.30:988][391]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (805)
+[2022.01.17-10.34.30:988][391]LogModuleManager: Shutting down and abandoning module PlanarCut (803)
+[2022.01.17-10.34.30:988][391]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (801)
+[2022.01.17-10.34.30:992][391]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (799)
+[2022.01.17-10.34.30:994][391]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (797)
+[2022.01.17-10.34.30:997][391]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (795)
+[2022.01.17-10.34.30:998][391]LogModuleManager: Shutting down and abandoning module CharacterAI (793)
+[2022.01.17-10.34.30:998][391]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (791)
+[2022.01.17-10.34.30:998][391]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (789)
+[2022.01.17-10.34.30:998][391]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (787)
+[2022.01.17-10.34.30:998][391]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (785)
+[2022.01.17-10.34.30:998][391]LogModuleManager: Shutting down and abandoning module WebMMedia (783)
+[2022.01.17-10.34.30:999][391]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (781)
+[2022.01.17-10.34.31:000][391]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (779)
+[2022.01.17-10.34.31:001][391]LogModuleManager: Shutting down and abandoning module SequenceRecorder (778)
+[2022.01.17-10.34.31:002][391]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (775)
+[2022.01.17-10.34.31:002][391]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (773)
+[2022.01.17-10.34.31:002][391]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (771)
+[2022.01.17-10.34.31:002][391]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (769)
+[2022.01.17-10.34.31:002][391]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (767)
+[2022.01.17-10.34.31:002][391]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (765)
+[2022.01.17-10.34.31:002][391]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (763)
+[2022.01.17-10.34.31:002][391]LogModuleManager: Shutting down and abandoning module TextureAlignMode (761)
+[2022.01.17-10.34.31:002][391]LogModuleManager: Shutting down and abandoning module BspMode (759)
+[2022.01.17-10.34.31:003][391]LogModuleManager: Shutting down and abandoning module GeometryMode (757)
+[2022.01.17-10.34.31:003][391]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (755)
+[2022.01.17-10.34.31:004][391]LogModuleManager: Shutting down and abandoning module SmartSnapping (753)
+[2022.01.17-10.34.31:004][391]LogModuleManager: Shutting down and abandoning module SessionServices (751)
+[2022.01.17-10.34.31:004][391]LogModuleManager: Shutting down and abandoning module MeshPaint (749)
+[2022.01.17-10.34.31:006][391]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (747)
+[2022.01.17-10.34.31:006][391]LogModuleManager: Shutting down and abandoning module PlacementMode (746)
+[2022.01.17-10.34.31:006][391]LogModuleManager: Shutting down and abandoning module FoliageEdit (743)
+[2022.01.17-10.34.31:006][391]LogModuleManager: Shutting down and abandoning module LandscapeEditor (741)
+[2022.01.17-10.34.31:008][391]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (739)
+[2022.01.17-10.34.31:008][391]LogModuleManager: Shutting down and abandoning module ActorPickerMode (737)
+[2022.01.17-10.34.31:008][391]LogModuleManager: Shutting down and abandoning module ViewportSnapping (735)
+[2022.01.17-10.34.31:008][391]LogModuleManager: Shutting down and abandoning module ViewportInteraction (733)
+[2022.01.17-10.34.31:008][391]LogModuleManager: Shutting down and abandoning module ClothPainter (731)
+[2022.01.17-10.34.31:010][391]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (730)
+[2022.01.17-10.34.31:011][391]LogModuleManager: Shutting down and abandoning module LogVisualizer (727)
+[2022.01.17-10.34.31:013][391]LogModuleManager: Shutting down and abandoning module IntroTutorials (725)
+[2022.01.17-10.34.31:014][391]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (724)
+[2022.01.17-10.34.31:015][391]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (721)
+[2022.01.17-10.34.31:015][391]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (719)
+[2022.01.17-10.34.31:016][391]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (717)
+[2022.01.17-10.34.31:016][391]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (716)
+[2022.01.17-10.34.31:097][391]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (713)
+[2022.01.17-10.34.31:097][391]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (711)
+[2022.01.17-10.34.31:097][391]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (709)
+[2022.01.17-10.34.31:097][391]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (707)
+[2022.01.17-10.34.31:097][391]LogModuleManager: Shutting down and abandoning module EditorConfig (705)
+[2022.01.17-10.34.31:097][391]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (703)
+[2022.01.17-10.34.31:097][391]LogModuleManager: Shutting down and abandoning module EditorFramework (701)
+[2022.01.17-10.34.31:097][391]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (699)
+[2022.01.17-10.34.31:099][391]LogModuleManager: Shutting down and abandoning module TraceInsights (697)
+[2022.01.17-10.34.31:106][391]MemoryProfiler: Shutdown
+[2022.01.17-10.34.31:107][391]NetworkingProfiler: Shutdown
+[2022.01.17-10.34.31:107][391]LoadingProfiler: Shutdown
+[2022.01.17-10.34.31:108][391]TimingProfiler: Shutdown
+[2022.01.17-10.34.31:112][391]LogModuleManager: Shutting down and abandoning module TraceServices (696)
+[2022.01.17-10.34.31:114][391]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (693)
+[2022.01.17-10.34.31:114][391]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (692)
+[2022.01.17-10.34.31:115][391]LogModuleManager: Shutting down and abandoning module InputBindingEditor (688)
+[2022.01.17-10.34.31:115][391]LogModuleManager: Shutting down and abandoning module MergeActors (686)
+[2022.01.17-10.34.31:116][391]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (684)
+[2022.01.17-10.34.31:117][391]LogModuleManager: Shutting down and abandoning module LocalizationService (683)
+[2022.01.17-10.34.31:118][391]LogModuleManager: Shutting down and abandoning module HardwareTargeting (680)
+[2022.01.17-10.34.31:118][391]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (678)
+[2022.01.17-10.34.31:119][391]LogModuleManager: Shutting down and abandoning module UndoHistory (676)
+[2022.01.17-10.34.31:120][391]LogModuleManager: Shutting down and abandoning module XmlParser (674)
+[2022.01.17-10.34.31:120][391]LogModuleManager: Shutting down and abandoning module Blutility (672)
+[2022.01.17-10.34.31:120][391]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (670)
+[2022.01.17-10.34.31:120][391]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (669)
+[2022.01.17-10.34.31:121][391]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (666)
+[2022.01.17-10.34.31:122][391]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (665)
+[2022.01.17-10.34.31:122][391]LogModuleManager: Shutting down and abandoning module SettingsEditor (662)
+[2022.01.17-10.34.31:122][391]LogModuleManager: Shutting down and abandoning module ProjectLauncher (660)
+[2022.01.17-10.34.31:123][391]LogModuleManager: Shutting down and abandoning module SessionFrontend (658)
+[2022.01.17-10.34.31:124][391]LogModuleManager: Shutting down and abandoning module ProfilerClient (656)
+[2022.01.17-10.34.31:124][391]LogModuleManager: Shutting down and abandoning module DeviceManager (654)
+[2022.01.17-10.34.31:126][391]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (653)
+[2022.01.17-10.34.31:137][391]LogModuleManager: Shutting down and abandoning module AutomationController (650)
+[2022.01.17-10.34.31:137][391]LogModuleManager: Shutting down and abandoning module AutomationWindow (648)
+[2022.01.17-10.34.31:138][391]LogModuleManager: Shutting down and abandoning module Layers (646)
+[2022.01.17-10.34.31:140][391]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (644)
+[2022.01.17-10.34.31:140][391]LogModuleManager: Shutting down and abandoning module DetailCustomizations (642)
+[2022.01.17-10.34.31:143][391]LogModuleManager: Shutting down and abandoning module PackagesDialog (640)
+[2022.01.17-10.34.31:144][391]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (638)
+[2022.01.17-10.34.31:146][391]LogModuleManager: Shutting down and abandoning module Persona (636)
+[2022.01.17-10.34.31:147][391]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (635)
+[2022.01.17-10.34.31:147][391]LogModuleManager: Shutting down and abandoning module AnimGraph (633)
+[2022.01.17-10.34.31:148][391]LogModuleManager: Shutting down and abandoning module Kismet (630)
+[2022.01.17-10.34.31:150][391]LogModuleManager: Shutting down and abandoning module KismetWidgets (629)
+[2022.01.17-10.34.31:150][391]LogModuleManager: Shutting down and abandoning module GraphEditor (626)
+[2022.01.17-10.34.31:153][391]LogModuleManager: Shutting down and abandoning module StructViewer (624)
+[2022.01.17-10.34.31:153][391]LogModuleManager: Shutting down and abandoning module ClassViewer (622)
+[2022.01.17-10.34.31:153][391]LogModuleManager: Shutting down and abandoning module SourceControlWindows (620)
+[2022.01.17-10.34.31:153][391]LogModuleManager: Shutting down and abandoning module OutputLog (618)
+[2022.01.17-10.34.31:154][391]LogModuleManager: Shutting down and abandoning module Documentation (616)
+[2022.01.17-10.34.31:158][391]LogModuleManager: Shutting down and abandoning module LiveCoding (614)
+[2022.01.17-10.34.31:159][391]LogModuleManager: Shutting down and abandoning module LevelSequence (612)
+[2022.01.17-10.34.31:159][391]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (610)
+[2022.01.17-10.34.31:159][391]LogModuleManager: Shutting down and abandoning module MovieScene (608)
+[2022.01.17-10.34.31:159][391]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (606)
+[2022.01.17-10.34.31:160][391]LogModuleManager: Shutting down and abandoning module LauncherPlatform (604)
+[2022.01.17-10.34.31:160][391]LogModuleManager: Shutting down and abandoning module AnalyticsET (602)
+[2022.01.17-10.34.31:160][391]LogModuleManager: Shutting down and abandoning module PortalServices (600)
+[2022.01.17-10.34.31:160][391]LogModuleManager: Shutting down and abandoning module PortalRpc (598)
+[2022.01.17-10.34.31:160][391]LogModuleManager: Shutting down and abandoning module MessagingRpc (596)
+[2022.01.17-10.34.31:160][391]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (594)
+[2022.01.17-10.34.31:160][391]LogModuleManager: Shutting down and abandoning module AudioMixerCore (593)
+[2022.01.17-10.34.31:160][391]LogModuleManager: Shutting down and abandoning module AIModule (590)
+[2022.01.17-10.34.31:161][391]LogModuleManager: Shutting down and abandoning module GameplayDebugger (589)
+[2022.01.17-10.34.31:161][391]LogModuleManager: Shutting down and abandoning module AITestSuite (587)
+[2022.01.17-10.34.31:161][391]LogModuleManager: Shutting down and abandoning module NavigationSystem (585)
+[2022.01.17-10.34.31:162][391]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (582)
+[2022.01.17-10.34.31:162][391]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (580)
+[2022.01.17-10.34.31:162][391]LogModuleManager: Shutting down and abandoning module TypedElementFramework (578)
+[2022.01.17-10.34.31:162][391]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (576)
+[2022.01.17-10.34.31:169][391]LogModuleManager: Shutting down and abandoning module ProfilerService (574)
+[2022.01.17-10.34.31:348][391]LogModuleManager: Shutting down and abandoning module TaskGraph (572)
+[2022.01.17-10.34.31:349][391]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (570)
+[2022.01.17-10.34.31:350][391]LogModuleManager: Shutting down and abandoning module MegascansPlugin (568)
+[2022.01.17-10.34.31:640][391]LogModuleManager: Shutting down and abandoning module Bridge (566)
+[2022.01.17-10.34.31:640][391]LogModuleManager: Shutting down and abandoning module OculusEditor (564)
+[2022.01.17-10.34.31:640][391]LogModuleManager: Shutting down and abandoning module OculusInput (562)
+[2022.01.17-10.34.31:640][391]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (560)
+[2022.01.17-10.34.31:640][391]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (558)
+[2022.01.17-10.34.31:640][391]LogModuleManager: Shutting down and abandoning module CollectionManager (557)
+[2022.01.17-10.34.31:642][391]LogModuleManager: Shutting down and abandoning module SynthesisEditor (554)
+[2022.01.17-10.34.31:642][391]LogModuleManager: Shutting down and abandoning module Synthesis (552)
+[2022.01.17-10.34.31:644][391]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (550)
+[2022.01.17-10.34.31:645][391]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (548)
+[2022.01.17-10.34.31:645][391]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (546)
+[2022.01.17-10.34.31:645][391]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (544)
+[2022.01.17-10.34.31:646][391]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (542)
+[2022.01.17-10.34.31:646][391]LogModuleManager: Shutting down and abandoning module InterchangePipelines (540)
+[2022.01.17-10.34.31:646][391]LogModuleManager: Shutting down and abandoning module InterchangeExport (538)
+[2022.01.17-10.34.31:646][391]LogModuleManager: Shutting down and abandoning module InterchangeImport (536)
+[2022.01.17-10.34.31:647][391]LogModuleManager: Shutting down and abandoning module InterchangeNodes (534)
+[2022.01.17-10.34.31:647][391]LogModuleManager: Shutting down and abandoning module ScreenshotTools (532)
+[2022.01.17-10.34.31:647][391]LogModuleManager: Shutting down and abandoning module GooglePAD (530)
+[2022.01.17-10.34.31:647][391]LogModuleManager: Shutting down and abandoning module HairStrandsEditor (528)
+[2022.01.17-10.34.31:648][391]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (526)
+[2022.01.17-10.34.31:648][391]LogModuleManager: Shutting down and abandoning module CableComponent (524)
+[2022.01.17-10.34.31:648][391]LogModuleManager: Shutting down and abandoning module AudioCapture (522)
+[2022.01.17-10.34.31:648][391]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (521)
+[2022.01.17-10.34.31:648][391]LogModuleManager: Shutting down and abandoning module AssetTags (518)
+[2022.01.17-10.34.31:648][391]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (516)
+[2022.01.17-10.34.31:649][391]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (514)
+[2022.01.17-10.34.31:649][391]LogModuleManager: Shutting down and abandoning module AppleImageUtils (512)
+[2022.01.17-10.34.31:649][391]LogModuleManager: Shutting down and abandoning module AndroidPermission (510)
+[2022.01.17-10.34.31:649][391]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (508)
+[2022.01.17-10.34.31:649][391]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (506)
+[2022.01.17-10.34.31:650][391]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (504)
+[2022.01.17-10.34.31:650][391]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (502)
+[2022.01.17-10.34.31:650][391]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (500)
+[2022.01.17-10.34.31:650][391]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (498)
+[2022.01.17-10.34.31:650][391]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (496)
+[2022.01.17-10.34.31:650][391]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (494)
+[2022.01.17-10.34.31:650][391]LogModuleManager: Shutting down and abandoning module MotoSynth (492)
+[2022.01.17-10.34.31:650][391]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (490)
+[2022.01.17-10.34.31:651][391]LogModuleManager: Shutting down and abandoning module MeshModelingTools (488)
+[2022.01.17-10.34.31:652][391]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (486)
+[2022.01.17-10.34.31:653][391]LogModuleManager: Shutting down and abandoning module ModelingOperators (484)
+[2022.01.17-10.34.31:653][391]LogModuleManager: Shutting down and abandoning module ModelingComponents (482)
+[2022.01.17-10.34.31:654][391]LogModuleManager: Shutting down and abandoning module TemplateSequence (480)
+[2022.01.17-10.34.31:654][391]LogModuleManager: Shutting down and abandoning module MeshConversion (478)
+[2022.01.17-10.34.31:655][391]LogModuleManager: Shutting down and abandoning module DynamicMesh (476)
+[2022.01.17-10.34.31:656][391]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (474)
+[2022.01.17-10.34.31:657][391]LogModuleManager: Shutting down and abandoning module GeometricObjects (472)
+[2022.01.17-10.34.31:657][391]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (470)
+[2022.01.17-10.34.31:657][391]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (469)
+[2022.01.17-10.34.31:657][391]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (466)
+[2022.01.17-10.34.31:658][391]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (464)
+[2022.01.17-10.34.31:658][391]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (462)
+[2022.01.17-10.34.31:658][391]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (460)
+[2022.01.17-10.34.31:658][391]LogModuleManager: Shutting down and abandoning module ChaosNiagara (458)
+[2022.01.17-10.34.31:659][391]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (456)
+[2022.01.17-10.34.31:659][391]LogModuleManager: Shutting down and abandoning module FractureEditor (454)
+[2022.01.17-10.34.31:660][391]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (452)
+[2022.01.17-10.34.31:660][391]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (450)
+[2022.01.17-10.34.31:660][391]LogModuleManager: Shutting down and abandoning module AutomationUtils (448)
+[2022.01.17-10.34.31:661][391]LogModuleManager: Shutting down and abandoning module BackChannel (446)
+[2022.01.17-10.34.31:661][391]LogModuleManager: Shutting down and abandoning module AlembicImporter (444)
+[2022.01.17-10.34.31:662][391]LogModuleManager: Shutting down and abandoning module AlembicLibrary (443)
+[2022.01.17-10.34.31:662][391]LogModuleManager: Shutting down and abandoning module GeometryCache (442)
+[2022.01.17-10.34.31:662][391]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (441)
+[2022.01.17-10.34.31:662][391]LogModuleManager: Shutting down and abandoning module MediaCompositing (436)
+[2022.01.17-10.34.31:662][391]LogModuleManager: Shutting down and abandoning module ImgMedia (434)
+[2022.01.17-10.34.31:663][391]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (432)
+[2022.01.17-10.34.31:668][391]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (430)
+[2022.01.17-10.34.31:668][391]LogModuleManager: Shutting down and abandoning module UObjectPlugin (428)
+[2022.01.17-10.34.31:668][391]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (426)
+[2022.01.17-10.34.31:669][391]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (424)
+[2022.01.17-10.34.31:671][391]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (422)
+[2022.01.17-10.34.31:671][391]LogModuleManager: Shutting down and abandoning module PluginUtils (420)
+[2022.01.17-10.34.31:672][391]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (418)
+[2022.01.17-10.34.31:674][391]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (416)
+[2022.01.17-10.34.31:677][391]LogModuleManager: Shutting down and abandoning module GitSourceControl (414)
+[2022.01.17-10.34.31:677][391]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (412)
+[2022.01.17-10.34.31:677][391]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (410)
+[2022.01.17-10.34.31:678][391]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (408)
+[2022.01.17-10.34.31:679][391]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (406)
+[2022.01.17-10.34.31:679][391]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (404)
+[2022.01.17-10.34.31:679][391]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (402)
+[2022.01.17-10.34.31:680][391]LogModuleManager: Shutting down and abandoning module PluginBrowser (400)
+[2022.01.17-10.34.31:683][391]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (398)
+[2022.01.17-10.34.31:683][391]LogModuleManager: Shutting down and abandoning module InterchangeEditor (396)
+[2022.01.17-10.34.31:683][391]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (394)
+[2022.01.17-10.34.31:684][391]LogModuleManager: Shutting down and abandoning module EditorDebugTools (392)
+[2022.01.17-10.34.31:685][391]LogModuleManager: Shutting down and abandoning module CurveEditorTools (390)
+[2022.01.17-10.34.31:686][391]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (388)
+[2022.01.17-10.34.31:686][391]LogModuleManager: Shutting down and abandoning module CryptoKeys (386)
+[2022.01.17-10.34.31:686][391]LogModuleManager: Shutting down and abandoning module GameplayCameras (384)
+[2022.01.17-10.34.31:686][391]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (382)
+[2022.01.17-10.34.31:687][391]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (380)
+[2022.01.17-10.34.31:687][391]LogModuleManager: Shutting down and abandoning module Paper2DEditor (378)
+[2022.01.17-10.34.31:688][391]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (376)
+[2022.01.17-10.34.31:688][391]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (374)
+[2022.01.17-10.34.31:689][391]LogModuleManager: Shutting down and abandoning module SoundFields (372)
+[2022.01.17-10.34.31:689][391]LogModuleManager: Shutting down and abandoning module SignificanceManager (370)
+[2022.01.17-10.34.31:689][391]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (368)
+[2022.01.17-10.34.31:689][391]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (366)
+[2022.01.17-10.34.31:691][391]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (364)
+[2022.01.17-10.34.31:691][391]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (362)
+[2022.01.17-10.34.31:691][391]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (361)
+[2022.01.17-10.34.31:691][391]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (358)
+[2022.01.17-10.34.31:691][391]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (356)
+[2022.01.17-10.34.31:691][391]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (354)
+[2022.01.17-10.34.31:692][391]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (352)
+[2022.01.17-10.34.31:692][391]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (350)
+[2022.01.17-10.34.31:692][391]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (348)
+[2022.01.17-10.34.31:692][391]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.01.17-10.34.31:692][391]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (346)
+[2022.01.17-10.34.31:693][391]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (344)
+[2022.01.17-10.34.31:693][391]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (342)
+[2022.01.17-10.34.31:693][391]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (340)
+[2022.01.17-10.34.31:693][391]LogModuleManager: Shutting down and abandoning module MagicLeapController (338)
+[2022.01.17-10.34.31:694][391]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.01.17-10.34.31:695][391]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (336)
+[2022.01.17-10.34.31:695][391]LogModuleManager: Shutting down and abandoning module MagicLeapAR (334)
+[2022.01.17-10.34.31:695][391]LogModuleManager: Shutting down and abandoning module AugmentedReality (333)
+[2022.01.17-10.34.31:695][391]LogModuleManager: Shutting down and abandoning module UdpMessaging (330)
+[2022.01.17-10.34.31:796][391]LogModuleManager: Shutting down and abandoning module ActorSequence (328)
+[2022.01.17-10.34.31:796][391]LogModuleManager: Shutting down and abandoning module TcpMessaging (326)
+[2022.01.17-10.34.31:897][391]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (324)
+[2022.01.17-10.34.31:897][391]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2022.01.17-10.34.31:899][391]LogModuleManager: Shutting down and abandoning module SignalProcessing (321)
+[2022.01.17-10.34.31:899][391]LogModuleManager: Shutting down and abandoning module NiagaraEditor (319)
+[2022.01.17-10.34.31:901][391]LogModuleManager: Shutting down and abandoning module NiagaraCore (316)
+[2022.01.17-10.34.31:901][391]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (314)
+[2022.01.17-10.34.31:901][391]LogModuleManager: Shutting down and abandoning module AnimationSharing (312)
+[2022.01.17-10.34.31:901][391]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2022.01.17-10.34.31:901][391]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2022.01.17-10.34.31:902][391]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2022.01.17-10.34.31:902][391]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2022.01.17-10.34.31:902][391]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2022.01.17-10.34.31:903][391]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2022.01.17-10.34.31:909][391]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2022.01.17-10.34.31:910][391]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (298)
+[2022.01.17-10.34.31:910][391]LogModuleManager: Shutting down and abandoning module AssetPlacementEdMode (297)
+[2022.01.17-10.34.31:912][391]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (294)
+[2022.01.17-10.34.31:912][391]LogModuleManager: Shutting down and abandoning module MainFrame (292)
+[2022.01.17-10.34.31:913][391]LogModuleManager: Shutting down and abandoning module HotReload (291)
+[2022.01.17-10.34.31:914][391]LogModuleManager: Shutting down and abandoning module ContentBrowser (287)
+[2022.01.17-10.34.31:914][391]LogModuleManager: Shutting down and abandoning module ToolMenus (286)
+[2022.01.17-10.34.31:914][391]LogModuleManager: Shutting down and abandoning module ContentBrowserData (284)
+[2022.01.17-10.34.31:914][391]LogModuleManager: Shutting down and abandoning module TreeMap (281)
+[2022.01.17-10.34.31:914][391]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (278)
+[2022.01.17-10.34.31:916][391]LogModuleManager: Shutting down and abandoning module Paper2D (276)
+[2022.01.17-10.34.31:916][391]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (274)
+[2022.01.17-10.34.31:917][391]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (272)
+[2022.01.17-10.34.31:917][391]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (270)
+[2022.01.17-10.34.31:917][391]LogModuleManager: Shutting down and abandoning module PacketHandler (268)
+[2022.01.17-10.34.31:917][391]LogModuleManager: Shutting down and abandoning module AnimationDataController (266)
+[2022.01.17-10.34.31:917][391]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (264)
+[2022.01.17-10.34.31:917][391]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (262)
+[2022.01.17-10.34.31:917][391]LogModuleManager: Shutting down and abandoning module MediaAssets (260)
+[2022.01.17-10.34.31:917][391]LogModuleManager: Shutting down and abandoning module Overlay (258)
+[2022.01.17-10.34.31:917][391]LogModuleManager: Shutting down and abandoning module OverlayEditor (257)
+[2022.01.17-10.34.31:917][391]LogModuleManager: Shutting down and abandoning module VREditor (254)
+[2022.01.17-10.34.31:918][391]LogModuleManager: Shutting down and abandoning module StringTableEditor (252)
+[2022.01.17-10.34.31:919][391]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (250)
+[2022.01.17-10.34.31:919][391]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (248)
+[2022.01.17-10.34.31:920][391]LogModuleManager: Shutting down and abandoning module FunctionalTesting (246)
+[2022.01.17-10.34.31:920][391]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (244)
+[2022.01.17-10.34.31:922][391]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2022.01.17-10.34.31:925][391]LogModuleManager: Shutting down and abandoning module UMG (240)
+[2022.01.17-10.34.31:925][391]LogModuleManager: Shutting down and abandoning module UMGEditor (239)
+[2022.01.17-10.34.31:927][391]LogModuleManager: Shutting down and abandoning module SlateReflector (234)
+[2022.01.17-10.34.31:930][391]LogModuleManager: Shutting down and abandoning module Slate (232)
+[2022.01.17-10.34.31:930][391]LogModuleManager: Shutting down and abandoning module SlateCore (230)
+[2022.01.17-10.34.31:932][391]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (228)
+[2022.01.17-10.34.31:932][391]LogModuleManager: Shutting down and abandoning module UnrealEd (226)
+[2022.01.17-10.34.31:932][391]LogModuleManager: Shutting down and abandoning module MRMesh (224)
+[2022.01.17-10.34.31:932][391]LogModuleManager: Shutting down and abandoning module Messaging (222)
+[2022.01.17-10.34.31:932][391]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (220)
+[2022.01.17-10.34.31:932][391]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (218)
+[2022.01.17-10.34.31:933][391]LogModuleManager: Shutting down and abandoning module XAudio2 (216)
+[2022.01.17-10.34.31:933][391]LogModuleManager: Shutting down and abandoning module Networking (214)
+[2022.01.17-10.34.31:933][391]LogModuleManager: Shutting down and abandoning module Core (212)
+[2022.01.17-10.34.31:933][391]LogModuleManager: Shutting down and abandoning module SourceControl (210)
+[2022.01.17-10.34.31:933][391]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2022.01.17-10.34.31:933][391]LogModuleManager: Shutting down and abandoning module MovieSceneTools (206)
+[2022.01.17-10.34.31:936][391]LogModuleManager: Shutting down and abandoning module CurveEditor (205)
+[2022.01.17-10.34.31:938][391]LogModuleManager: Shutting down and abandoning module Sequencer (203)
+[2022.01.17-10.34.31:941][391]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
+[2022.01.17-10.34.31:941][391]LogModuleManager: Shutting down and abandoning module KismetCompiler (198)
+[2022.01.17-10.34.31:941][391]LogModuleManager: Shutting down and abandoning module MeshBuilder (196)
+[2022.01.17-10.34.31:942][391]LogModuleManager: Shutting down and abandoning module NaniteBuilder (194)
+[2022.01.17-10.34.31:942][391]LogModuleManager: Shutting down and abandoning module MeshUtilities (192)
+[2022.01.17-10.34.31:943][391]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (191)
+[2022.01.17-10.34.31:945][391]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (190)
+[2022.01.17-10.34.31:945][391]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (189)
+[2022.01.17-10.34.31:945][391]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (187)
+[2022.01.17-10.34.31:946][391]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (185)
+[2022.01.17-10.34.31:950][391]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (183)
+[2022.01.17-10.34.31:951][391]LogModuleManager: Shutting down and abandoning module MaterialBaking (179)
+[2022.01.17-10.34.31:951][391]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (174)
+[2022.01.17-10.34.31:951][391]LogModuleManager: Shutting down and abandoning module DerivedDataCache (172)
+[2022.01.17-10.34.31:962][391]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2022.01.17-10.34.31:963][391]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2022.01.17-10.34.31:968][391]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2022.01.17-10.34.31:968][391]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2022.01.17-10.34.31:969][391]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2022.01.17-10.34.31:969][391]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2022.01.17-10.34.31:970][391]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2022.01.17-10.34.31:970][391]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (157)
+[2022.01.17-10.34.31:970][391]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2022.01.17-10.34.31:970][391]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2022.01.17-10.34.31:972][391]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2022.01.17-10.34.31:972][391]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2022.01.17-10.34.31:972][391]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (147)
+[2022.01.17-10.34.31:972][391]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (145)
+[2022.01.17-10.34.31:972][391]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (143)
+[2022.01.17-10.34.31:972][391]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (141)
+[2022.01.17-10.34.31:972][391]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2022.01.17-10.34.31:973][391]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (137)
+[2022.01.17-10.34.31:973][391]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (135)
+[2022.01.17-10.34.31:973][391]LogModuleManager: Shutting down and abandoning module LinuxAArch64TargetPlatform (133)
+[2022.01.17-10.34.31:974][391]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (131)
+[2022.01.17-10.34.31:974][391]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (129)
+[2022.01.17-10.34.31:974][391]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (127)
+[2022.01.17-10.34.31:974][391]LogModuleManager: Shutting down and abandoning module TurnkeySupport (125)
+[2022.01.17-10.34.31:974][391]LogModuleManager: Shutting down and abandoning module InputCore (122)
+[2022.01.17-10.34.31:975][391]LogModuleManager: Shutting down and abandoning module Settings (120)
+[2022.01.17-10.34.31:975][391]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (118)
+[2022.01.17-10.34.31:976][391]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (116)
+[2022.01.17-10.34.31:976][391]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (115)
+[2022.01.17-10.34.31:976][391]LogModuleManager: Shutting down and abandoning module Chaos (112)
+[2022.01.17-10.34.31:976][391]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (110)
+[2022.01.17-10.34.31:976][391]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (109)
+[2022.01.17-10.34.31:976][391]LogModuleManager: Shutting down and abandoning module AVEncoder (108)
+[2022.01.17-10.34.31:977][391]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (104)
+[2022.01.17-10.34.31:977][391]LogModuleManager: Shutting down and abandoning module SteamVRInput (102)
+[2022.01.17-10.34.31:977][391]LogModuleManager: Shutting down and abandoning module SteamVR (100)
+[2022.01.17-10.34.31:978][391]LogHMD: Freeing OpenVRDLLHandle.
+[2022.01.17-10.34.31:978][391]LogModuleManager: Shutting down and abandoning module OculusHMD (98)
+[2022.01.17-10.34.31:978][391]LogModuleManager: Shutting down and abandoning module HairStrandsCore (96)
+[2022.01.17-10.34.31:978][391]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (94)
+[2022.01.17-10.34.31:978][391]LogModuleManager: Shutting down and abandoning module ChunkDownloader (92)
+[2022.01.17-10.34.31:979][391]LogModuleManager: Shutting down and abandoning module MLSDK (90)
+[2022.01.17-10.34.31:979][391]LogModuleManager: Shutting down and abandoning module MagicLeap (88)
+[2022.01.17-10.34.31:979][391]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (86)
+[2022.01.17-10.34.31:979][391]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (82)
+[2022.01.17-10.34.31:983][391]LogModuleManager: Shutting down and abandoning module XMPP (77)
+[2022.01.17-10.34.31:985][391]LogModuleManager: Shutting down and abandoning module WebSockets (76)
+[2022.01.17-10.34.32:009][391]LogModuleManager: Shutting down and abandoning module HTTP (73)
+[2022.01.17-10.34.32:009][391]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.01.17-10.34.32:010][391]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.01.17-10.34.32:010][391]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.01.17-10.34.32:010][391]LogHttp: Warning: 0000084BF8536900: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B7C800A-4B57-77E3-0034-8DBEC14C8A86%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=a04877344c5e84152eaadabc59914ac6%7Cbbd9ed2ec23746fc895470ce31f19b7c%7Ceeb12a31-16c5-4c7e-b679-5b59045b00e7&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2022.01.17-10.34.32:010][391]LogHttp: Warning: 0000084BF8536900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2022.01.17-10.34.32:010][391]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2022.01.17-10.34.32:010][391]LogHttp: Warning: 0000084BF8536900: libcurl info message cache 1 (Closing connection 39)
+[2022.01.17-10.34.32:035][391]LogModuleManager: Shutting down and abandoning module SSL (72)
+[2022.01.17-10.34.32:050][391]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (68)
+[2022.01.17-10.34.32:050][391]LogModuleManager: Shutting down and abandoning module ChaosCloth (66)
+[2022.01.17-10.34.32:051][391]LogModuleManager: Shutting down and abandoning module WmfMedia (64)
+[2022.01.17-10.34.32:055][391]LogModuleManager: Shutting down and abandoning module Media (63)
+[2022.01.17-10.34.32:056][391]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (60)
+[2022.01.17-10.34.32:056][391]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (58)
+[2022.01.17-10.34.32:057][391]LogModuleManager: Shutting down and abandoning module NiagaraShader (56)
+[2022.01.17-10.34.32:057][391]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2022.01.17-10.34.32:057][391]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2022.01.17-10.34.32:057][391]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.01.17-10.34.32:057][391]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.01.17-10.34.32:059][391]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2022.01.17-10.34.32:059][391]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2022.01.17-10.34.32:059][391]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2022.01.17-10.34.32:059][391]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2022.01.17-10.34.32:059][391]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.01.17-10.34.32:060][391]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.01.17-10.34.32:063][391]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.01.17-10.34.32:066][391]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.01.17-10.34.32:067][391]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.01.17-10.34.32:067][391]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.01.17-10.34.32:067][391]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.01.17-10.34.32:075][391]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.01.17-10.34.32:076][391]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.01.17-10.34.32:076][391]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.01.17-10.34.32:076][391]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.01.17-10.34.32:077][391]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.01.17-10.34.32:078][391]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.01.17-10.34.32:078][391]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.01.17-10.34.32:078][391]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.01.17-10.34.32:078][391]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.01.17-10.34.32:079][391]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.01.17-10.34.32:079][391]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.01.17-10.34.32:080][391]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.01.17-10.34.32:082][391]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.01.17-10.34.32:087][391]LogD3D11RHI: Shutdown
+[2022.01.17-10.34.32:087][391]LogD3D11RHI: CleanupD3DDevice
+[2022.01.17-10.34.32:146][391]LogExit: Exiting.
+[2022.01.17-10.34.32:158][391]Log file closed, 01/17/22 11:34:32

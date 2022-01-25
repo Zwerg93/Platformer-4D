@@ -1,0 +1,43 @@
+@startuml
+
+package "ud Lorenz Litzlbauer 21.1.2022"{
+
+	package "Platfromer 4D"{
+		actor Spieler as s
+		actor Webseitenbesucher as w 
+	
+		package "Webseite besuchen"{
+			usecase requistrierung as "Requistrierung
+			---
+			extendspoint Requistrierung weiterleiten"
+			usecase uploadTime as "Upload Run Data"
+			usecase seeScoarboard as "Lookup Scores in Leaderboard"
+		}
+	
+		package "Spiel spielen"{
+			usecase anmelden as "Anmelden"
+			usecase requistrierungLink as "Requistrierung weiterleiten"
+			usecase zeitmessen as "Zeitmessung 
+			--- 
+			extendspoint Anmelden"
+		}
+
+
+		w --> requistrierung
+		s --> requistrierungLink
+
+		requistrierungLink .> requistrierung : extends
+
+		s --> anmelden
+		anmelden .> zeitmessen : extends
+		zeitmessen .> uploadTime : includes
+		uploadTime .> seeScoarboard : extends
+
+		w --> seeScoarboard
+
+
+		
+	}	
+}
+
+@enduml
