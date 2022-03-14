@@ -31,8 +31,4 @@ jobs:
         with:
           name: backend-runner
           path: ${{ env.TARGET_FOLDER }}/
-          
-      - name: checking target directory
-        run: ls -la
-        working-directory: target
 
