@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   
 env:
-  TARGET_FOLDER: target/
+  TARGET_FOLDER: Prototype/platformer-4d-api/target/
 
 jobs:
   native_build:
@@ -22,14 +22,11 @@ jobs:
         with:
           java-version: '17'
           
-      - name: build native image for Backend
-        run: mvn package -Dnative -Dquarkus.native.container-build=true > /dev/null 2>&1
+      - name: build image for Backend
+        run: mvn package -D quarkus.package.type=uber-jar > /dev/null 2>&1
         working-directory: Prototype/platformer-4d-api/
         
-      - name: create "target" folder
-        run: mkdir -p target
-        
-      - name: upload "backend-runner" to "target"
+      - name: upload "backend-runner.jar" to "target"
         uses: actions/upload-artifact@v3
         with:
           name: backend-runner
