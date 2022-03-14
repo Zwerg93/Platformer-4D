@@ -1,0 +1,32 @@
+name: CD
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  native_build:
+    runs-on: ubuntu-latest
+    name: Deploy Quarkus Backend
+
+    steps:
+
+      - uses: actions/checkout@v2
+    
+      - name: install ssh key
+        uses: caberger/install-ssh-key@v1.0
+        with:
+          ssh-private-key:  ${{ secrets.KEY }}
+          user: ${{ secrets.SERVER_USER }}
+          server: ${{ secrets.SERVER }}
+          alias: platformer4d-server
+          
+      - name: download artifact "platformer4d-runner"
+        uses: actions/download-artifact@v3
+        with:
+          name: backend-runner
+    
+      - name: connect to server and upload artifact "platformer4d-runner"
+        run: |
+          ssh platformer4d-server "rm -rf ~/dist && mkdir -p ~/dist"
+          ls -la
+          echo "perfect!" 
