@@ -5883,3 +5883,7 @@ Script call stack:
 [2022.03.27-13.51.38:732][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
 [2022.03.27-13.51.38:736][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
 [2022.03.27-13.51.38:762][981]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.03.27-13.56.30:518][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.03.27-13.56.30:551][865]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_Auto1D2C3177C497D2CD52BBFA5A1087C7BE3.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Autosaves/Game/Parkour/FirstLevelImpression_Auto1.umap'
+[2022.03.27-13.56.30:552][865]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Parkour/FirstLevelImpression' took 0.037
+[2022.03.27-13.56.30:552][865]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
