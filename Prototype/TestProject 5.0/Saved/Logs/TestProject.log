@@ -6826,3 +6826,1753 @@ Script call stack:
 [2022.03.27-19.32.18:244][513]LogAudioMixer: Resetting audio stream to device id 
 [2022.03.27-19.32.18:248][513]LogAudioMixer: Display: 0: FrontLeft
 [2022.03.27-19.32.18:248][513]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-19.33.21:814][866]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.03.27-19.33.21:821][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.27-19.33.21:821][866]PIE: New page: PIE session: FirstLevelImpression (27.03.2022, 23:33:21)
+[2022.03.27-19.33.21:821][866]LogPlayLevel: Creating play world package: /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-19.33.21:834][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012948s)
+[2022.03.27-19.33.21:835][866]LogAIModule: Creating AISystem for world FirstLevelImpression
+[2022.03.27-19.33.21:836][866]LogPlayLevel: PIE: World Init took: (0.001666s)
+[2022.03.27-19.33.21:836][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Parkour/FirstLevelImpression.FirstLevelImpression to /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression (0.014787s)
+[2022.03.27-19.33.21:840][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.03.27-19.33.21:841][866]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.03.27-19.33.21:841][866]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.27-19.33.21:841][866]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.27-19.33.21:841][866]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.27-19.33.21:841][866]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.27-19.33.21:841][866]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.27-19.33.21:841][866]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.27-19.33.21:841][866]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.27-19.33.21:841][866]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.27-19.33.21:842][866]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.27-19.33.21:842][866]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.27-19.33.21:844][866]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-19.33.21:844][866]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-19.33.21:851][866]LogAudioMixer: Display: Using Audio Device Lautsprecher (USB Audio Device)
+[2022.03.27-19.33.21:851][866]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.27-19.33.21:851][866]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.27-19.33.21:851][866]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.27-19.33.21:852][866]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.27-19.33.21:852][866]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.27-19.33.21:853][866]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.27-19.33.21:853][866]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.27-19.33.21:853][866]LogInit: FAudioDevice initialized.
+[2022.03.27-19.33.21:853][866]LogAudio: Display: Audio Device (ID: 25) registered with world 'FirstLevelImpression'.
+[2022.03.27-19.33.21:857][866]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.03.27-19.33.21:862][866]LogWorld: Bringing World /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression up for play (max tick rate 0) at 2022.03.27-21.33.21
+[2022.03.27-19.33.21:862][866]LogWorld: Bringing up level for play took: 0.004423
+[2022.03.27-19.33.21:862][866]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2022.03.27-19.33.21:865][866]PIE: Server logged in
+[2022.03.27-19.33.21:865][866]PIE: Play in editor total start time 0,045 seconds.
+[2022.03.27-19.35.27:751][988]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=36.83 Y=-137.48 Z=0.00 Location: X=2258.69 Y=10594.53 Z=118.68 Normal: X=0.00 Y=-0.57 Z=0.82 PenetrationDepth:1.795 Actor: Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2022.03.27-19.37.15:178][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-19.37.15:178][996]LogWorld: BeginTearingDown for /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-19.37.15:179][996]LogWorld: UWorld::CleanupWorld for FirstLevelImpression, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-19.37.15:179][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.37.15:202][996]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.27-19.37.15:215][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.37.15:218][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-19.37.15:219][996]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.37.15:219][996]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.37.15:226][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.03.27-19.37.15:230][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.03.27-19.37.15:257][997]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2022.03.27-19.37.48:453][518]LogActorFactory: Actor Factory created Wall_400x200
+[2022.03.27-19.37.48:454][518]LogActorFactory: Actor Factory created Wall_400x200
+[2022.03.27-19.37.49:840][582]LogActorFactory: Actor Factory created Wall_400x200
+[2022.03.27-19.37.49:840][582]LogActorFactory: Actor Factory created Wall_400x200
+[2022.03.27-19.38.04:770][276]Cmd: TRANSACTION UNDO
+[2022.03.27-19.38.04:770][276]LogEditorTransaction: Undo Move Elements
+[2022.03.27-19.38.04:812][276]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: BC479F60E445151E8F953347DDAE27A454932FD6), compiling. 
+[2022.03.27-19.38.04:832][276]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-19.38.04:832][276]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-19.38.04:832][276]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-19.38.04:832][276]MaterialEditorStats: 
+[2022.03.27-19.38.04:832][276]MaterialEditorStats: Shader Count: 0
+[2022.03.27-19.38.04:920][278]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-19.38.04:920][278]LogShaderCompilers: Display: Total job queries 352, among them cache hits 312 (88.64%)
+[2022.03.27-19.38.04:920][278]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 19 distinct outputs (73.08%)
+[2022.03.27-19.38.04:921][278]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.27-19.38.04:921][278]LogShaderCompilers: Display: ================================================
+[2022.03.27-19.38.05:010][279]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-19.38.05:010][279]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-19.38.05:010][279]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-19.38.05:010][279]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-19.38.05:010][279]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-19.38.05:010][279]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-19.38.05:010][279]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-19.38.05:010][279]MaterialEditorStats: 
+[2022.03.27-19.38.05:010][279]MaterialEditorStats: Shader Count: 14
+[2022.03.27-19.38.06:947][358]Cmd: MODE GRID=1
+[2022.03.27-19.39.49:233][  5]Cmd: TRANSACTION UNDO
+[2022.03.27-19.39.49:233][  5]LogEditorTransaction: Undo Move Elements
+[2022.03.27-19.39.49:273][  5]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: E89C560C180C05357DD65682F31E4CD7BEFCBBF9), compiling. 
+[2022.03.27-19.39.49:293][  5]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-19.39.49:293][  5]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-19.39.49:293][  5]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-19.39.49:293][  5]MaterialEditorStats: 
+[2022.03.27-19.39.49:293][  5]MaterialEditorStats: Shader Count: 0
+[2022.03.27-19.39.49:472][  8]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-19.39.49:472][  8]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-19.39.49:472][  8]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-19.39.49:472][  8]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-19.39.49:472][  8]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-19.39.49:472][  8]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-19.39.49:472][  8]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-19.39.49:472][  8]MaterialEditorStats: 
+[2022.03.27-19.39.49:472][  8]MaterialEditorStats: Shader Count: 14
+[2022.03.27-19.40.42:456][509]Cmd: DELETE
+[2022.03.27-19.40.42:456][509]Cmd: ACTOR DELETE
+[2022.03.27-19.40.42:461][509]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.27-19.40.42:477][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.03.27-19.40.42:480][509]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.03.27-19.42.21:691][419]LogSlate: Window 'Color Picker' being destroyed
+[2022.03.27-19.44.29:382][ 22]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.03.27-19.44.29:435][ 22]LogPlayLevel: Warning: Cancelling Open Transaction 'Edit Light Color' to start PIE session.
+[2022.03.27-19.44.29:435][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.27-19.44.29:435][ 22]PIE: New page: PIE session: FirstLevelImpression (27.03.2022, 23:44:29)
+[2022.03.27-19.44.29:435][ 22]LogPlayLevel: Creating play world package: /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-19.44.29:447][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011858s)
+[2022.03.27-19.44.29:448][ 22]LogAIModule: Creating AISystem for world FirstLevelImpression
+[2022.03.27-19.44.29:448][ 22]LogPlayLevel: PIE: World Init took: (0.001238s)
+[2022.03.27-19.44.29:448][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Parkour/FirstLevelImpression.FirstLevelImpression to /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression (0.013228s)
+[2022.03.27-19.44.29:453][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.03.27-19.44.29:456][ 22]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.03.27-19.44.29:456][ 22]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.27-19.44.29:456][ 22]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.27-19.44.29:456][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.27-19.44.29:456][ 22]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.27-19.44.29:456][ 22]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.27-19.44.29:456][ 22]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.27-19.44.29:456][ 22]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.27-19.44.29:456][ 22]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.27-19.44.29:457][ 22]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.27-19.44.29:457][ 22]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.27-19.44.29:459][ 22]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-19.44.29:459][ 22]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-19.44.29:466][ 22]LogAudioMixer: Display: Using Audio Device Lautsprecher (USB Audio Device)
+[2022.03.27-19.44.29:466][ 22]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.27-19.44.29:466][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.27-19.44.29:466][ 22]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.27-19.44.29:467][ 22]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.27-19.44.29:467][ 22]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.27-19.44.29:468][ 22]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.27-19.44.29:468][ 22]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.27-19.44.29:468][ 22]LogInit: FAudioDevice initialized.
+[2022.03.27-19.44.29:468][ 22]LogAudio: Display: Audio Device (ID: 26) registered with world 'FirstLevelImpression'.
+[2022.03.27-19.44.29:474][ 22]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.03.27-19.44.29:479][ 22]LogWorld: Bringing World /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression up for play (max tick rate 0) at 2022.03.27-21.44.29
+[2022.03.27-19.44.29:479][ 22]LogWorld: Bringing up level for play took: 0.004897
+[2022.03.27-19.44.29:479][ 22]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.03.27-19.44.29:482][ 22]PIE: Server logged in
+[2022.03.27-19.44.29:482][ 22]PIE: Play in editor total start time 0,095 seconds.
+[2022.03.27-19.45.51:518][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-19.45.51:518][710]LogWorld: BeginTearingDown for /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-19.45.51:519][710]LogWorld: UWorld::CleanupWorld for FirstLevelImpression, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-19.45.51:519][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.45.51:708][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.27-19.45.51:721][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.45.51:724][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-19.45.51:725][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.45.51:726][710]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.45.51:731][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.03.27-19.45.51:734][710]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.03.27-19.45.51:762][711]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.03.27-19.45.53:784][771]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.03.27-19.45.53:791][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.27-19.45.53:791][771]PIE: New page: PIE session: FirstLevelImpression (27.03.2022, 23:45:53)
+[2022.03.27-19.45.53:791][771]LogPlayLevel: Creating play world package: /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-19.45.53:802][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011526s)
+[2022.03.27-19.45.53:803][771]LogAIModule: Creating AISystem for world FirstLevelImpression
+[2022.03.27-19.45.53:803][771]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2022.03.27-19.45.53:803][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Parkour/FirstLevelImpression.FirstLevelImpression to /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression (0.012623s)
+[2022.03.27-19.45.53:806][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.03.27-19.45.53:808][771]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.03.27-19.45.53:808][771]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.27-19.45.53:808][771]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.27-19.45.53:808][771]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.27-19.45.53:808][771]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.27-19.45.53:808][771]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.27-19.45.53:808][771]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.27-19.45.53:808][771]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.27-19.45.53:808][771]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.27-19.45.53:809][771]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.27-19.45.53:809][771]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.27-19.45.53:811][771]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-19.45.53:811][771]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-19.45.53:818][771]LogAudioMixer: Display: Using Audio Device Lautsprecher (USB Audio Device)
+[2022.03.27-19.45.53:818][771]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.27-19.45.53:818][771]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.27-19.45.53:818][771]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.27-19.45.53:819][771]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.27-19.45.53:819][771]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.27-19.45.53:819][771]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.27-19.45.53:819][771]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.27-19.45.53:819][771]LogInit: FAudioDevice initialized.
+[2022.03.27-19.45.53:819][771]LogAudio: Display: Audio Device (ID: 27) registered with world 'FirstLevelImpression'.
+[2022.03.27-19.45.53:840][771]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.03.27-19.45.53:844][771]LogWorld: Bringing World /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression up for play (max tick rate 0) at 2022.03.27-21.45.53
+[2022.03.27-19.45.53:844][771]LogWorld: Bringing up level for play took: 0.004708
+[2022.03.27-19.45.53:845][771]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.03.27-19.45.53:847][771]PIE: Server logged in
+[2022.03.27-19.45.53:847][771]PIE: Play in editor total start time 0,058 seconds.
+[2022.03.27-19.45.55:998][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-19.45.55:998][822]LogWorld: BeginTearingDown for /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-19.45.55:999][822]LogWorld: UWorld::CleanupWorld for FirstLevelImpression, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-19.45.56:000][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.45.56:021][822]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.27-19.45.56:034][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.45.56:037][822]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-19.45.56:037][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.45.56:038][822]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.45.56:043][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.03.27-19.45.56:046][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.03.27-19.45.56:081][824]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.03.27-19.45.57:580][868]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.03.27-19.45.57:586][868]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.27-19.45.57:586][868]PIE: New page: PIE session: FirstLevelImpression (27.03.2022, 23:45:57)
+[2022.03.27-19.45.57:586][868]LogPlayLevel: Creating play world package: /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-19.45.57:598][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011440s)
+[2022.03.27-19.45.57:599][868]LogAIModule: Creating AISystem for world FirstLevelImpression
+[2022.03.27-19.45.57:599][868]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2022.03.27-19.45.57:599][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Parkour/FirstLevelImpression.FirstLevelImpression to /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression (0.012538s)
+[2022.03.27-19.45.57:602][868]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.03.27-19.45.57:603][868]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2022.03.27-19.45.57:604][868]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.27-19.45.57:604][868]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.27-19.45.57:604][868]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.27-19.45.57:604][868]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.27-19.45.57:604][868]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.27-19.45.57:604][868]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.27-19.45.57:604][868]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.27-19.45.57:604][868]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.27-19.45.57:604][868]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.27-19.45.57:604][868]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.27-19.45.57:606][868]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-19.45.57:606][868]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-19.45.57:614][868]LogAudioMixer: Display: Using Audio Device Lautsprecher (USB Audio Device)
+[2022.03.27-19.45.57:614][868]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.27-19.45.57:614][868]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.27-19.45.57:614][868]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.27-19.45.57:614][868]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.27-19.45.57:615][868]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.27-19.45.57:615][868]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.27-19.45.57:615][868]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.27-19.45.57:615][868]LogInit: FAudioDevice initialized.
+[2022.03.27-19.45.57:615][868]LogAudio: Display: Audio Device (ID: 28) registered with world 'FirstLevelImpression'.
+[2022.03.27-19.45.57:635][868]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.03.27-19.45.57:640][868]LogWorld: Bringing World /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression up for play (max tick rate 0) at 2022.03.27-21.45.57
+[2022.03.27-19.45.57:640][868]LogWorld: Bringing up level for play took: 0.005133
+[2022.03.27-19.45.57:640][868]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.03.27-19.45.57:643][868]PIE: Server logged in
+[2022.03.27-19.45.57:643][868]PIE: Play in editor total start time 0,058 seconds.
+[2022.03.27-19.47.23:819][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-19.47.23:819][206]LogWorld: BeginTearingDown for /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-19.47.23:819][206]LogWorld: UWorld::CleanupWorld for FirstLevelImpression, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-19.47.23:820][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.47.23:886][206]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.27-19.47.23:899][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.47.23:902][206]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-19.47.23:903][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.47.23:904][206]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.47.23:908][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.03.27-19.47.23:912][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.03.27-19.47.23:941][207]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.03.27-19.47.24:262][212]Cmd: SELECT NONE
+[2022.03.27-19.47.26:155][272]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.03.27-19.47.26:161][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.27-19.47.26:161][272]PIE: New page: PIE session: FirstLevelImpression (27.03.2022, 23:47:26)
+[2022.03.27-19.47.26:161][272]LogPlayLevel: Creating play world package: /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-19.47.26:175][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013803s)
+[2022.03.27-19.47.26:176][272]LogAIModule: Creating AISystem for world FirstLevelImpression
+[2022.03.27-19.47.26:176][272]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2022.03.27-19.47.26:176][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Parkour/FirstLevelImpression.FirstLevelImpression to /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression (0.014970s)
+[2022.03.27-19.47.26:180][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2022.03.27-19.47.26:182][272]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2022.03.27-19.47.26:182][272]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.27-19.47.26:182][272]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.27-19.47.26:182][272]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.27-19.47.26:182][272]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.27-19.47.26:182][272]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.27-19.47.26:182][272]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.27-19.47.26:182][272]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.27-19.47.26:182][272]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.27-19.47.26:182][272]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.27-19.47.26:182][272]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.27-19.47.26:185][272]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-19.47.26:185][272]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-19.47.26:192][272]LogAudioMixer: Display: Using Audio Device Lautsprecher (USB Audio Device)
+[2022.03.27-19.47.26:192][272]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.27-19.47.26:192][272]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.27-19.47.26:193][272]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.27-19.47.26:193][272]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.27-19.47.26:193][272]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.27-19.47.26:194][272]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.27-19.47.26:194][272]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.27-19.47.26:194][272]LogInit: FAudioDevice initialized.
+[2022.03.27-19.47.26:194][272]LogAudio: Display: Audio Device (ID: 29) registered with world 'FirstLevelImpression'.
+[2022.03.27-19.47.26:215][272]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.03.27-19.47.26:220][272]LogWorld: Bringing World /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression up for play (max tick rate 0) at 2022.03.27-21.47.26
+[2022.03.27-19.47.26:221][272]LogWorld: Bringing up level for play took: 0.005726
+[2022.03.27-19.47.26:221][272]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.03.27-19.47.26:224][272]PIE: Server logged in
+[2022.03.27-19.47.26:224][272]PIE: Play in editor total start time 0,064 seconds.
+[2022.03.27-19.48.19:528][273]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-9.62 Y=-599.92 Z=0.00 Location: X=2326.87 Y=10429.34 Z=76.35 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:3.925 Actor: Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2022.03.27-19.48.20:538][305]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=74.46 Y=-318.20 Z=0.00 Location: X=2331.68 Y=10423.19 Z=73.28 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:11.238 Actor: Component:StaticMeshComponent0 BoneName:None (23 other events since notify)
+[2022.03.27-19.48.21:708][339]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-141.46 Y=-342.30 Z=0.00 Location: X=2343.97 Y=10365.51 Z=64.57 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:5.206 Actor: Component:StaticMeshComponent0 BoneName:None (3 other events since notify)
+[2022.03.27-19.49.40:218][260]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:243][261]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:269][262]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:294][263]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:319][264]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:341][265]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:366][266]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:389][267]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:414][268]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:439][269]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:462][270]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:485][271]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:514][272]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:537][273]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:561][274]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:586][275]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:614][276]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:639][277]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:663][278]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:687][279]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:711][280]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:735][281]LogScript: Warning: Script Msg: Divide by zero detected: 1036.614136 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:759][282]LogScript: Warning: Script Msg: Divide by zero detected: 747.483582 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:789][283]LogScript: Warning: Script Msg: Divide by zero detected: 747.483582 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:813][284]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:838][285]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:863][286]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:887][287]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:911][288]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:935][289]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:957][290]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.40:984][291]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:008][292]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:032][293]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:057][294]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:081][295]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:105][296]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:128][297]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:152][298]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:176][299]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:200][300]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:224][301]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:248][302]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:272][303]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:297][304]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:323][305]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:347][306]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:374][307]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:396][308]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:422][309]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:452][310]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:477][311]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:503][312]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:535][313]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:564][314]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:598][315]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:626][316]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.41:654][317]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:105][373]LogScript: Warning: Script Msg: Divide by zero detected: 421.732391 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:131][374]LogScript: Warning: Script Msg: Divide by zero detected: 430.593323 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:156][375]LogScript: Warning: Script Msg: Divide by zero detected: 439.481598 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:187][376]LogScript: Warning: Script Msg: Divide by zero detected: 450.060455 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:214][377]LogScript: Warning: Script Msg: Divide by zero detected: 459.323792 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:240][378]LogScript: Warning: Script Msg: Divide by zero detected: 468.037109 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:265][379]LogScript: Warning: Script Msg: Divide by zero detected: 476.966431 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:290][380]LogScript: Warning: Script Msg: Divide by zero detected: 485.393890 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:315][381]LogScript: Warning: Script Msg: Divide by zero detected: 494.076263 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:341][382]LogScript: Warning: Script Msg: Divide by zero detected: 502.699646 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:365][383]LogScript: Warning: Script Msg: Divide by zero detected: 511.163269 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:390][384]LogScript: Warning: Script Msg: Divide by zero detected: 519.697632 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:414][385]LogScript: Warning: Script Msg: Divide by zero detected: 527.960571 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:439][386]LogScript: Warning: Script Msg: Divide by zero detected: 536.428345 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:465][387]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:493][388]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:517][389]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:541][390]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:565][391]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:589][392]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:610][393]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:634][394]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:655][395]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:682][396]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:707][397]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:733][398]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:756][399]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:779][400]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:803][401]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:828][402]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:854][403]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:878][404]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:903][405]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:927][406]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:950][407]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.43:976][408]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:007][409]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:033][410]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:058][411]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:085][412]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:114][413]LogScript: Warning: Script Msg: Divide by zero detected: 545.129028 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:141][414]LogScript: Warning: Script Msg: Divide by zero detected: 545.127747 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:170][415]LogScript: Warning: Script Msg: Divide by zero detected: 545.127747 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:200][416]LogScript: Warning: Script Msg: Divide by zero detected: 545.127747 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:229][417]LogScript: Warning: Script Msg: Divide by zero detected: 545.127747 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:256][418]LogScript: Warning: Script Msg: Divide by zero detected: 545.127747 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:283][419]LogScript: Warning: Script Msg: Divide by zero detected: 545.127747 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:309][420]LogScript: Warning: Script Msg: Divide by zero detected: 545.127747 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:336][421]LogScript: Warning: Script Msg: Divide by zero detected: 545.127747 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:367][422]LogScript: Warning: Script Msg: Divide by zero detected: 545.127747 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:391][423]LogScript: Warning: Script Msg: Divide by zero detected: 545.127747 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:419][424]LogScript: Warning: Script Msg: Divide by zero detected: 748.628906 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:444][425]LogScript: Warning: Script Msg: Divide by zero detected: 764.224548 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:472][426]LogScript: Warning: Script Msg: Divide by zero detected: 781.563232 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:497][427]LogScript: Warning: Script Msg: Divide by zero detected: 781.563232 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:528][428]LogScript: Warning: Script Msg: Divide by zero detected: 781.563232 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:552][429]LogScript: Warning: Script Msg: Divide by zero detected: 781.563232 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.44:576][430]LogScript: Warning: Script Msg: Divide by zero detected: 781.563232 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:403][877]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:426][878]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:452][879]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:476][880]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:500][881]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:523][882]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:547][883]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:571][884]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:595][885]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:619][886]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:642][887]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:667][888]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:695][889]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:720][890]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:745][891]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:773][892]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:796][893]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:820][894]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:844][895]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:868][896]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:892][897]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:917][898]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:942][899]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:966][900]LogScript: Warning: Script Msg: Divide by zero detected: 1049.903931 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.55:989][901]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:013][902]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:037][903]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:060][904]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:085][905]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:114][906]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:138][907]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:163][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:187][909]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:212][910]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:237][911]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:262][912]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:286][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:310][914]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.49.56:335][915]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-19.50.58:929][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-19.50.58:929][496]LogWorld: BeginTearingDown for /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-19.50.58:929][496]LogWorld: UWorld::CleanupWorld for FirstLevelImpression, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-19.50.58:930][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.50.58:964][496]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.27-19.50.58:965][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.50.58:968][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-19.50.58:969][496]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.50.58:970][496]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.50.58:975][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.03.27-19.50.58:979][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.03.27-19.50.58:997][497]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.03.27-19.50.59:360][498]Cmd: SELECT NONE
+[2022.03.27-19.51.00:882][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.03.27-19.51.00:924][551]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpressionB21C6B5D4C324D6A252F869A398D16D2.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-19.51.00:936][551]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-19.51.00:948][551]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltData904FFD134A2B749FBB3F9EBDB3CF67C7.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-19.51.00:949][551]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-19.51.00:958][551]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-19.51.00:958][551]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-19.51.00:959][551]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-19.51.04:102][613]LogSlate: Window 'Message' being destroyed
+[2022.03.27-19.51.04:106][613]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/StarterContent/Materials/M_Metal_Steel.M_Metal_Steel
+(Selecting 'No' will cause all changes to be lost!)
+[2022.03.27-19.51.06:108][613]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 30B4C3305B4EDE31BB8501269A5ACBCC459939A7), compiling. 
+[2022.03.27-19.51.06:174][613]LogMaterial: Display: Missing cached shadermap for M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: D791F1F37FF64556F3E5FB544EDFC00BEB231B17), compiling. 
+[2022.03.27-19.51.06:213][613]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.03.27-19.51.06:319][613]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-19.51.06:319][613]LogShaderCompilers: Display: Total job queries 382, among them cache hits 341 (89.27%)
+[2022.03.27-19.51.06:319][613]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 19 distinct outputs (73.08%)
+[2022.03.27-19.51.06:319][613]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.27-19.51.06:319][613]LogShaderCompilers: Display: ================================================
+[2022.03.27-19.51.06:632][613]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.03.27-19.51.06:644][613]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.03.27-19.51.09:891][613]LogSlate: Window 'Save Content' being destroyed
+[2022.03.27-19.51.10:035][613]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/M_Metal_Steel1A57FB064357478D66C372A34C2F014D.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/StarterContent/Materials/M_Metal_Steel.uasset'
+[2022.03.27-19.51.10:040][613]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_22BF7ADE0C2BCB8749C576D29DF958BB16BBEAFD.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/_GENERATED/Mapou/Rectangle_22BF7ADE.uasset'
+[2022.03.27-19.51.10:045][613]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_2DC143E178254C7C49A514660EE62D913FE04FDA.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/_GENERATED/Mapou/Rectangle_2DC143E1.uasset'
+[2022.03.27-19.51.10:050][613]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_59F90867EC8C29E6495038C6C0A86AB1C3B9DE13.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/_GENERATED/Mapou/Rectangle_59F90867.uasset'
+[2022.03.27-19.51.10:054][613]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_B4036456565A351F4D438872C3399DAEB561FB9A.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/_GENERATED/Mapou/Rectangle_B4036456.uasset'
+[2022.03.27-19.51.10:057][613]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_F243CBC29502D5E94B836F7AF3279782C44C2227.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/_GENERATED/Mapou/Rectangle_F243CBC2.uasset'
+[2022.03.27-19.51.10:061][613]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_FFA03CA7EAC377944F71FFCF873D93B67367C180.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/_GENERATED/Mapou/Rectangle_FFA03CA7.uasset'
+[2022.03.27-19.51.10:073][613]LogStall: Shutdown...
+[2022.03.27-19.51.10:080][613]LogStall: Shutdown complete.
+[2022.03.27-19.51.10:141][613]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-19.51.10:141][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-19.51.10:176][613]LogSlate: Window 'TestProject - Unreal Editor' being destroyed
+[2022.03.27-19.51.10:945][613]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2022.03.27-19.51.11:153][613]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-19.51.11:153][613]LogContentValidation: Display: Validating Material /Game/StarterContent/Materials/M_Metal_Steel.M_Metal_Steel
+[2022.03.27-19.51.11:153][613]LogContentValidation: Display: Validating StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_2DC143E1.Rectangle_2DC143E1
+[2022.03.27-19.51.11:153][613]LogContentValidation: Display: Validating StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_FFA03CA7.Rectangle_FFA03CA7
+[2022.03.27-19.51.11:153][613]LogContentValidation: Display: Validating StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_59F90867.Rectangle_59F90867
+[2022.03.27-19.51.11:153][613]LogContentValidation: Display: Validating StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_22BF7ADE.Rectangle_22BF7ADE
+[2022.03.27-19.51.11:153][613]LogContentValidation: Display: Validating StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_B4036456.Rectangle_B4036456
+[2022.03.27-19.51.11:153][613]LogContentValidation: Display: Validating StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_F243CBC2.Rectangle_F243CBC2
+[2022.03.27-19.51.11:164][614]Cmd: QUIT_EDITOR
+[2022.03.27-19.51.11:166][614]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.03.27-19.51.11:179][614]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.03.27-19.51.11:181][614]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.03.27-19.51.11:181][614]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.03.27-19.51.11:493][614]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.03.27-19.51.11:493][614]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.03.27-19.51.11:493][614]LogAudio: Display: Audio Device unregistered from world 'FirstLevelImpression'.
+[2022.03.27-19.51.11:494][614]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.51.11:501][614]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-19.51.11:553][614]LogAudio: Display: Audio Device Manager Shutdown
+[2022.03.27-19.51.11:567][614]LogExit: Preparing to exit.
+[2022.03.27-19.51.12:296][614]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-19.51.12:296][614]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-19.51.12:426][614]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.03.27-19.51.12:484][614]LogStylusInput: Shutting down StylusInput subsystem.
+[2022.03.27-19.51.12:502][614]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-19.51.12:504][614]LogExit: Editor shut down
+[2022.03.27-19.51.12:519][614]LogExit: Transaction tracking system shut down
+[2022.03.27-19.51.13:049][614]LogExit: Object subsystem successfully closed.
+[2022.03.27-19.51.13:064][614]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-19.51.13:064][614]LogShaderCompilers: Display: Total job queries 425, among them cache hits 354 (83.29%)
+[2022.03.27-19.51.13:064][614]LogShaderCompilers: Display: Tracking 30 distinct input hashes that result in 22 distinct outputs (73.33%)
+[2022.03.27-19.51.13:064][614]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.27-19.51.13:064][614]LogShaderCompilers: Display: ================================================
+[2022.03.27-19.51.13:073][614]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.03.27-19.51.13:157][614]LogModuleManager: Shutting down and abandoning module MaterialEditor (863)
+[2022.03.27-19.51.13:157][614]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (861)
+[2022.03.27-19.51.13:157][614]LogModuleManager: Shutting down and abandoning module Voice (859)
+[2022.03.27-19.51.13:157][614]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (857)
+[2022.03.27-19.51.13:157][614]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (855)
+[2022.03.27-19.51.13:157][614]LogModuleManager: Shutting down and abandoning module SceneOutliner (853)
+[2022.03.27-19.51.13:157][614]LogModuleManager: Shutting down and abandoning module AddContentDialog (851)
+[2022.03.27-19.51.13:162][614]LogModuleManager: Shutting down and abandoning module WidgetCarousel (850)
+[2022.03.27-19.51.13:162][614]LogModuleManager: Shutting down and abandoning module EditorWidgets (847)
+[2022.03.27-19.51.13:162][614]LogModuleManager: Shutting down and abandoning module StatusBar (845)
+[2022.03.27-19.51.13:162][614]LogModuleManager: Shutting down and abandoning module TimeManagement (843)
+[2022.03.27-19.51.13:162][614]LogModuleManager: Shutting down and abandoning module StatsViewer (841)
+[2022.03.27-19.51.13:162][614]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (839)
+[2022.03.27-19.51.13:163][614]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (837)
+[2022.03.27-19.51.13:163][614]LogModuleManager: Shutting down and abandoning module AutomationWorker (835)
+[2022.03.27-19.51.13:163][614]LogModuleManager: Shutting down and abandoning module SteamVREditor (833)
+[2022.03.27-19.51.13:163][614]LogModuleManager: Shutting down and abandoning module OculusMR (831)
+[2022.03.27-19.51.13:163][614]LogModuleManager: Shutting down and abandoning module GooglePADEditor (829)
+[2022.03.27-19.51.13:163][614]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (827)
+[2022.03.27-19.51.13:163][614]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (825)
+[2022.03.27-19.51.13:164][614]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (823)
+[2022.03.27-19.51.13:165][614]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (821)
+[2022.03.27-19.51.13:165][614]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (819)
+[2022.03.27-19.51.13:165][614]LogModuleManager: Shutting down and abandoning module PlanarCut (817)
+[2022.03.27-19.51.13:166][614]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (815)
+[2022.03.27-19.51.13:166][614]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (813)
+[2022.03.27-19.51.13:166][614]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (811)
+[2022.03.27-19.51.13:166][614]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (809)
+[2022.03.27-19.51.13:166][614]LogModuleManager: Shutting down and abandoning module WebMMedia (807)
+[2022.03.27-19.51.13:166][614]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (805)
+[2022.03.27-19.51.13:166][614]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (803)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module SequenceRecorder (802)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (799)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (797)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (795)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (793)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (791)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (789)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (787)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module CharacterAI (785)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module TextureAlignMode (783)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module BspMode (781)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module GeometryMode (779)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (777)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (775)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (773)
+[2022.03.27-19.51.13:167][614]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (771)
+[2022.03.27-19.51.13:168][614]LogModuleManager: Shutting down and abandoning module SmartSnapping (769)
+[2022.03.27-19.51.13:168][614]LogModuleManager: Shutting down and abandoning module SessionServices (767)
+[2022.03.27-19.51.13:168][614]LogModuleManager: Shutting down and abandoning module MeshPaint (765)
+[2022.03.27-19.51.13:168][614]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (763)
+[2022.03.27-19.51.13:168][614]LogModuleManager: Shutting down and abandoning module PlacementMode (762)
+[2022.03.27-19.51.13:168][614]LogModuleManager: Shutting down and abandoning module FoliageEdit (759)
+[2022.03.27-19.51.13:169][614]LogModuleManager: Shutting down and abandoning module LandscapeEditor (757)
+[2022.03.27-19.51.13:169][614]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (755)
+[2022.03.27-19.51.13:169][614]LogModuleManager: Shutting down and abandoning module ActorPickerMode (753)
+[2022.03.27-19.51.13:169][614]LogModuleManager: Shutting down and abandoning module ViewportSnapping (751)
+[2022.03.27-19.51.13:169][614]LogModuleManager: Shutting down and abandoning module ViewportInteraction (749)
+[2022.03.27-19.51.13:169][614]LogModuleManager: Shutting down and abandoning module ClothPainter (747)
+[2022.03.27-19.51.13:170][614]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (746)
+[2022.03.27-19.51.13:171][614]LogModuleManager: Shutting down and abandoning module LogVisualizer (743)
+[2022.03.27-19.51.13:172][614]LogModuleManager: Shutting down and abandoning module IntroTutorials (741)
+[2022.03.27-19.51.13:172][614]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (740)
+[2022.03.27-19.51.13:172][614]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (737)
+[2022.03.27-19.51.13:172][614]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (735)
+[2022.03.27-19.51.13:172][614]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (733)
+[2022.03.27-19.51.13:172][614]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (732)
+[2022.03.27-19.51.14:177][614]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (729)
+[2022.03.27-19.51.14:178][614]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (727)
+[2022.03.27-19.51.14:178][614]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (725)
+[2022.03.27-19.51.14:178][614]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (723)
+[2022.03.27-19.51.14:178][614]LogModuleManager: Shutting down and abandoning module EditorConfig (721)
+[2022.03.27-19.51.14:178][614]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (719)
+[2022.03.27-19.51.14:178][614]LogModuleManager: Shutting down and abandoning module EditorFramework (717)
+[2022.03.27-19.51.14:178][614]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (715)
+[2022.03.27-19.51.14:178][614]LogModuleManager: Shutting down and abandoning module TraceInsights (713)
+[2022.03.27-19.51.14:179][614]MemoryProfiler: Shutdown
+[2022.03.27-19.51.14:180][614]NetworkingProfiler: Shutdown
+[2022.03.27-19.51.14:180][614]LoadingProfiler: Shutdown
+[2022.03.27-19.51.14:180][614]TimingProfiler: Shutdown
+[2022.03.27-19.51.14:182][614]LogModuleManager: Shutting down and abandoning module TraceServices (712)
+[2022.03.27-19.51.14:182][614]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (709)
+[2022.03.27-19.51.14:182][614]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (708)
+[2022.03.27-19.51.14:182][614]LogModuleManager: Shutting down and abandoning module InputBindingEditor (704)
+[2022.03.27-19.51.14:183][614]LogModuleManager: Shutting down and abandoning module MergeActors (702)
+[2022.03.27-19.51.14:183][614]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (700)
+[2022.03.27-19.51.14:183][614]LogModuleManager: Shutting down and abandoning module LocalizationService (699)
+[2022.03.27-19.51.14:183][614]LogModuleManager: Shutting down and abandoning module HardwareTargeting (696)
+[2022.03.27-19.51.14:183][614]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (694)
+[2022.03.27-19.51.14:184][614]LogModuleManager: Shutting down and abandoning module UndoHistory (692)
+[2022.03.27-19.51.14:184][614]LogModuleManager: Shutting down and abandoning module XmlParser (690)
+[2022.03.27-19.51.14:184][614]LogModuleManager: Shutting down and abandoning module Blutility (688)
+[2022.03.27-19.51.14:184][614]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (686)
+[2022.03.27-19.51.14:184][614]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (685)
+[2022.03.27-19.51.14:184][614]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (682)
+[2022.03.27-19.51.14:185][614]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (681)
+[2022.03.27-19.51.14:185][614]LogModuleManager: Shutting down and abandoning module SettingsEditor (678)
+[2022.03.27-19.51.14:185][614]LogModuleManager: Shutting down and abandoning module ProjectLauncher (676)
+[2022.03.27-19.51.14:185][614]LogModuleManager: Shutting down and abandoning module SessionFrontend (674)
+[2022.03.27-19.51.14:185][614]LogModuleManager: Shutting down and abandoning module ProfilerClient (672)
+[2022.03.27-19.51.14:185][614]LogModuleManager: Shutting down and abandoning module DeviceManager (670)
+[2022.03.27-19.51.14:186][614]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (669)
+[2022.03.27-19.51.14:196][614]LogModuleManager: Shutting down and abandoning module AutomationController (666)
+[2022.03.27-19.51.14:196][614]LogModuleManager: Shutting down and abandoning module AutomationWindow (664)
+[2022.03.27-19.51.14:197][614]LogModuleManager: Shutting down and abandoning module Layers (662)
+[2022.03.27-19.51.14:198][614]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (660)
+[2022.03.27-19.51.14:198][614]LogModuleManager: Shutting down and abandoning module DetailCustomizations (658)
+[2022.03.27-19.51.14:198][614]LogModuleManager: Shutting down and abandoning module PackagesDialog (656)
+[2022.03.27-19.51.14:198][614]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (654)
+[2022.03.27-19.51.14:199][614]LogModuleManager: Shutting down and abandoning module Persona (652)
+[2022.03.27-19.51.14:199][614]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (651)
+[2022.03.27-19.51.14:199][614]LogModuleManager: Shutting down and abandoning module AnimGraph (649)
+[2022.03.27-19.51.14:199][614]LogModuleManager: Shutting down and abandoning module Kismet (646)
+[2022.03.27-19.51.14:200][614]LogModuleManager: Shutting down and abandoning module KismetWidgets (645)
+[2022.03.27-19.51.14:200][614]LogModuleManager: Shutting down and abandoning module GraphEditor (642)
+[2022.03.27-19.51.14:200][614]LogModuleManager: Shutting down and abandoning module StructViewer (640)
+[2022.03.27-19.51.14:201][614]LogModuleManager: Shutting down and abandoning module ClassViewer (638)
+[2022.03.27-19.51.14:201][614]LogModuleManager: Shutting down and abandoning module SourceControlWindows (636)
+[2022.03.27-19.51.14:201][614]LogModuleManager: Shutting down and abandoning module OutputLog (634)
+[2022.03.27-19.51.14:202][614]LogModuleManager: Shutting down and abandoning module Documentation (632)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module LiveCoding (630)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module LevelSequence (628)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (626)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module MovieScene (624)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (622)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module LauncherPlatform (620)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module AnalyticsET (618)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module PortalServices (616)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module PortalRpc (614)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module MessagingRpc (612)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (610)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module AudioMixerCore (609)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module AIModule (606)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module GameplayDebugger (605)
+[2022.03.27-19.51.14:203][614]LogModuleManager: Shutting down and abandoning module AITestSuite (603)
+[2022.03.27-19.51.14:204][614]LogModuleManager: Shutting down and abandoning module NavigationSystem (601)
+[2022.03.27-19.51.14:204][614]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (598)
+[2022.03.27-19.51.14:204][614]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (596)
+[2022.03.27-19.51.14:204][614]LogModuleManager: Shutting down and abandoning module TypedElementFramework (594)
+[2022.03.27-19.51.14:204][614]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (592)
+[2022.03.27-19.51.14:209][614]LogModuleManager: Shutting down and abandoning module ProfilerService (590)
+[2022.03.27-19.51.14:257][614]LogModuleManager: Shutting down and abandoning module TaskGraph (588)
+[2022.03.27-19.51.14:258][614]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (586)
+[2022.03.27-19.51.14:258][614]LogModuleManager: Shutting down and abandoning module MegascansPlugin (584)
+[2022.03.27-19.51.14:315][614]LogModuleManager: Shutting down and abandoning module Bridge (582)
+[2022.03.27-19.51.14:315][614]LogModuleManager: Shutting down and abandoning module OculusEditor (580)
+[2022.03.27-19.51.14:315][614]LogModuleManager: Shutting down and abandoning module OculusInput (578)
+[2022.03.27-19.51.14:315][614]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (576)
+[2022.03.27-19.51.14:315][614]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (574)
+[2022.03.27-19.51.14:315][614]LogModuleManager: Shutting down and abandoning module CollectionManager (573)
+[2022.03.27-19.51.14:316][614]LogModuleManager: Shutting down and abandoning module SynthesisEditor (570)
+[2022.03.27-19.51.14:316][614]LogModuleManager: Shutting down and abandoning module Synthesis (568)
+[2022.03.27-19.51.14:316][614]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (566)
+[2022.03.27-19.51.14:316][614]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (564)
+[2022.03.27-19.51.14:316][614]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (562)
+[2022.03.27-19.51.14:316][614]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (560)
+[2022.03.27-19.51.14:316][614]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (558)
+[2022.03.27-19.51.14:316][614]LogModuleManager: Shutting down and abandoning module InterchangePipelines (556)
+[2022.03.27-19.51.14:316][614]LogModuleManager: Shutting down and abandoning module InterchangeExport (554)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module InterchangeImport (552)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module InterchangeNodes (550)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module HairStrandsEditor (548)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module GooglePAD (546)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (544)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module CableComponent (542)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module AudioCapture (540)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (539)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module AssetTags (536)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (534)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (532)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module AppleImageUtils (530)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module AndroidPermission (528)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module ScreenshotTools (526)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (524)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (522)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module TemplateSequence (520)
+[2022.03.27-19.51.14:317][614]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (518)
+[2022.03.27-19.51.14:318][614]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (516)
+[2022.03.27-19.51.14:318][614]LogModuleManager: Shutting down and abandoning module MotoSynth (514)
+[2022.03.27-19.51.14:318][614]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (512)
+[2022.03.27-19.51.14:318][614]LogModuleManager: Shutting down and abandoning module MeshModelingTools (510)
+[2022.03.27-19.51.14:318][614]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (508)
+[2022.03.27-19.51.14:318][614]LogModuleManager: Shutting down and abandoning module ModelingOperators (506)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module ModelingComponents (504)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module LandmassEditor (502)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module Landmass (500)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module MeshLODToolset (498)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module MeshConversion (496)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module DynamicMesh (494)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (492)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module GeometricObjects (490)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (488)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (486)
+[2022.03.27-19.51.14:319][614]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (484)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module MediaCompositing (482)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module ImgMedia (480)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (478)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (476)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (474)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (472)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (471)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (468)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (466)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (464)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module ChaosNiagara (462)
+[2022.03.27-19.51.14:320][614]LogModuleManager: Shutting down and abandoning module FractureEditor (460)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module StylusInput (458)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (456)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module AutomationUtils (454)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module BackChannel (452)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module AlembicImporter (450)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module AlembicLibrary (449)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module GeometryCache (448)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (447)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (442)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module PluginBrowser (440)
+[2022.03.27-19.51.14:321][614]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (438)
+[2022.03.27-19.51.14:322][614]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (436)
+[2022.03.27-19.51.14:322][614]LogModuleManager: Shutting down and abandoning module InterchangeEditor (434)
+[2022.03.27-19.51.14:322][614]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (432)
+[2022.03.27-19.51.14:322][614]LogModuleManager: Shutting down and abandoning module EditorDebugTools (430)
+[2022.03.27-19.51.14:322][614]LogModuleManager: Shutting down and abandoning module CurveEditorTools (428)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (426)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module CryptoKeys (424)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (422)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (420)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (418)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (416)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (414)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (412)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (410)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module UObjectPlugin (408)
+[2022.03.27-19.51.14:323][614]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (406)
+[2022.03.27-19.51.14:324][614]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (404)
+[2022.03.27-19.51.14:324][614]LogModuleManager: Shutting down and abandoning module PluginUtils (402)
+[2022.03.27-19.51.14:324][614]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (400)
+[2022.03.27-19.51.14:325][614]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (398)
+[2022.03.27-19.51.14:326][614]LogModuleManager: Shutting down and abandoning module GitSourceControl (396)
+[2022.03.27-19.51.14:327][614]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (394)
+[2022.03.27-19.51.14:328][614]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (392)
+[2022.03.27-19.51.14:328][614]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (390)
+[2022.03.27-19.51.14:328][614]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (388)
+[2022.03.27-19.51.14:328][614]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (386)
+[2022.03.27-19.51.14:329][614]LogModuleManager: Shutting down and abandoning module GameplayCameras (384)
+[2022.03.27-19.51.14:329][614]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (382)
+[2022.03.27-19.51.14:329][614]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (380)
+[2022.03.27-19.51.14:329][614]LogModuleManager: Shutting down and abandoning module Paper2DEditor (378)
+[2022.03.27-19.51.14:329][614]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (376)
+[2022.03.27-19.51.14:329][614]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (374)
+[2022.03.27-19.51.14:329][614]LogModuleManager: Shutting down and abandoning module SoundFields (372)
+[2022.03.27-19.51.14:329][614]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (370)
+[2022.03.27-19.51.14:330][614]LogModuleManager: Shutting down and abandoning module SignificanceManager (368)
+[2022.03.27-19.51.14:330][614]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (366)
+[2022.03.27-19.51.14:330][614]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (364)
+[2022.03.27-19.51.14:330][614]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (362)
+[2022.03.27-19.51.14:330][614]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (361)
+[2022.03.27-19.51.14:330][614]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (358)
+[2022.03.27-19.51.14:330][614]LogModuleManager: Shutting down and abandoning module ActorSequence (356)
+[2022.03.27-19.51.14:330][614]LogModuleManager: Shutting down and abandoning module TcpMessaging (354)
+[2022.03.27-19.51.14:431][614]LogModuleManager: Shutting down and abandoning module UdpMessaging (352)
+[2022.03.27-19.51.14:531][614]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (350)
+[2022.03.27-19.51.14:531][614]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (348)
+[2022.03.27-19.51.14:531][614]LogModuleManager: Shutting down and abandoning module FacialAnimation (346)
+[2022.03.27-19.51.14:531][614]LogModuleManager: Shutting down and abandoning module DataValidation (344)
+[2022.03.27-19.51.14:531][614]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (342)
+[2022.03.27-19.51.14:531][614]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (340)
+[2022.03.27-19.51.14:531][614]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (338)
+[2022.03.27-19.51.14:531][614]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (336)
+[2022.03.27-19.51.14:531][614]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (334)
+[2022.03.27-19.51.14:532][614]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.03.27-19.51.14:532][614]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (332)
+[2022.03.27-19.51.14:532][614]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (330)
+[2022.03.27-19.51.14:532][614]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (328)
+[2022.03.27-19.51.14:532][614]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (326)
+[2022.03.27-19.51.14:532][614]LogModuleManager: Shutting down and abandoning module MagicLeapController (324)
+[2022.03.27-19.51.14:532][614]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.03.27-19.51.14:532][614]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (322)
+[2022.03.27-19.51.14:532][614]LogModuleManager: Shutting down and abandoning module MagicLeapAR (320)
+[2022.03.27-19.51.14:532][614]LogModuleManager: Shutting down and abandoning module AugmentedReality (319)
+[2022.03.27-19.51.14:532][614]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (316)
+[2022.03.27-19.51.14:532][614]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (314)
+[2022.03.27-19.51.14:533][614]LogModuleManager: Shutting down and abandoning module LevelEditor (313)
+[2022.03.27-19.51.14:535][614]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (312)
+[2022.03.27-19.51.14:535][614]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (310)
+[2022.03.27-19.51.14:536][614]LogModuleManager: Shutting down and abandoning module AssetPlacementEdMode (309)
+[2022.03.27-19.51.14:536][614]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (306)
+[2022.03.27-19.51.14:536][614]LogModuleManager: Shutting down and abandoning module MainFrame (304)
+[2022.03.27-19.51.14:537][614]LogModuleManager: Shutting down and abandoning module HotReload (303)
+[2022.03.27-19.51.14:537][614]LogModuleManager: Shutting down and abandoning module ContentBrowser (299)
+[2022.03.27-19.51.14:537][614]LogModuleManager: Shutting down and abandoning module ToolMenus (298)
+[2022.03.27-19.51.14:537][614]LogModuleManager: Shutting down and abandoning module ContentBrowserData (296)
+[2022.03.27-19.51.14:537][614]LogModuleManager: Shutting down and abandoning module TreeMap (293)
+[2022.03.27-19.51.14:537][614]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (290)
+[2022.03.27-19.51.14:537][614]LogModuleManager: Shutting down and abandoning module Niagara (288)
+[2022.03.27-19.51.14:538][614]LogModuleManager: Shutting down and abandoning module SignalProcessing (287)
+[2022.03.27-19.51.14:538][614]LogModuleManager: Shutting down and abandoning module NiagaraEditor (285)
+[2022.03.27-19.51.14:538][614]LogModuleManager: Shutting down and abandoning module NiagaraCore (282)
+[2022.03.27-19.51.14:538][614]LogModuleManager: Shutting down and abandoning module AnimationSharing (280)
+[2022.03.27-19.51.14:538][614]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (278)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module Paper2D (276)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (274)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (272)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (270)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module PacketHandler (268)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module AnimationDataController (266)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (264)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (262)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module MediaAssets (260)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module Overlay (258)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module OverlayEditor (257)
+[2022.03.27-19.51.14:539][614]LogModuleManager: Shutting down and abandoning module VREditor (254)
+[2022.03.27-19.51.14:540][614]LogModuleManager: Shutting down and abandoning module StringTableEditor (252)
+[2022.03.27-19.51.14:541][614]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (250)
+[2022.03.27-19.51.14:541][614]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (248)
+[2022.03.27-19.51.14:541][614]LogModuleManager: Shutting down and abandoning module FunctionalTesting (246)
+[2022.03.27-19.51.14:541][614]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (244)
+[2022.03.27-19.51.14:542][614]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2022.03.27-19.51.14:543][614]LogModuleManager: Shutting down and abandoning module UMG (240)
+[2022.03.27-19.51.14:543][614]LogModuleManager: Shutting down and abandoning module UMGEditor (239)
+[2022.03.27-19.51.14:544][614]LogModuleManager: Shutting down and abandoning module SlateReflector (234)
+[2022.03.27-19.51.14:545][614]LogModuleManager: Shutting down and abandoning module Slate (232)
+[2022.03.27-19.51.14:545][614]LogModuleManager: Shutting down and abandoning module SlateCore (230)
+[2022.03.27-19.51.14:546][614]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (228)
+[2022.03.27-19.51.14:546][614]LogModuleManager: Shutting down and abandoning module UnrealEd (226)
+[2022.03.27-19.51.14:546][614]LogModuleManager: Shutting down and abandoning module MRMesh (224)
+[2022.03.27-19.51.14:546][614]LogModuleManager: Shutting down and abandoning module Messaging (222)
+[2022.03.27-19.51.14:546][614]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (220)
+[2022.03.27-19.51.14:546][614]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (218)
+[2022.03.27-19.51.14:546][614]LogModuleManager: Shutting down and abandoning module XAudio2 (216)
+[2022.03.27-19.51.14:547][614]LogModuleManager: Shutting down and abandoning module Networking (214)
+[2022.03.27-19.51.14:547][614]LogModuleManager: Shutting down and abandoning module Core (212)
+[2022.03.27-19.51.14:547][614]LogModuleManager: Shutting down and abandoning module SourceControl (210)
+[2022.03.27-19.51.14:547][614]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2022.03.27-19.51.14:547][614]LogModuleManager: Shutting down and abandoning module MovieSceneTools (206)
+[2022.03.27-19.51.14:548][614]LogModuleManager: Shutting down and abandoning module CurveEditor (205)
+[2022.03.27-19.51.14:548][614]LogModuleManager: Shutting down and abandoning module Sequencer (203)
+[2022.03.27-19.51.14:550][614]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
+[2022.03.27-19.51.14:550][614]LogModuleManager: Shutting down and abandoning module KismetCompiler (198)
+[2022.03.27-19.51.14:550][614]LogModuleManager: Shutting down and abandoning module MeshBuilder (196)
+[2022.03.27-19.51.14:550][614]LogModuleManager: Shutting down and abandoning module NaniteBuilder (194)
+[2022.03.27-19.51.14:550][614]LogModuleManager: Shutting down and abandoning module MeshUtilities (192)
+[2022.03.27-19.51.14:550][614]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (191)
+[2022.03.27-19.51.14:550][614]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (190)
+[2022.03.27-19.51.14:550][614]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (189)
+[2022.03.27-19.51.14:551][614]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (187)
+[2022.03.27-19.51.14:551][614]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (185)
+[2022.03.27-19.51.14:552][614]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (183)
+[2022.03.27-19.51.14:552][614]LogModuleManager: Shutting down and abandoning module MaterialBaking (179)
+[2022.03.27-19.51.14:553][614]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (174)
+[2022.03.27-19.51.14:553][614]LogModuleManager: Shutting down and abandoning module DerivedDataCache (172)
+[2022.03.27-19.51.14:556][614]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2022.03.27-19.51.14:556][614]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2022.03.27-19.51.14:557][614]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2022.03.27-19.51.14:557][614]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2022.03.27-19.51.14:557][614]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2022.03.27-19.51.14:558][614]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2022.03.27-19.51.14:558][614]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2022.03.27-19.51.14:558][614]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (157)
+[2022.03.27-19.51.14:558][614]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2022.03.27-19.51.14:558][614]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (147)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (145)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (143)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (141)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (137)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (135)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module LinuxAArch64TargetPlatform (133)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (131)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (129)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (127)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module TurnkeySupport (125)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module InputCore (122)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module Settings (120)
+[2022.03.27-19.51.14:559][614]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (118)
+[2022.03.27-19.51.14:565][614]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (116)
+[2022.03.27-19.51.14:565][614]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (115)
+[2022.03.27-19.51.14:565][614]LogModuleManager: Shutting down and abandoning module Chaos (112)
+[2022.03.27-19.51.14:565][614]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (110)
+[2022.03.27-19.51.14:565][614]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (109)
+[2022.03.27-19.51.14:565][614]LogModuleManager: Shutting down and abandoning module AVEncoder (108)
+[2022.03.27-19.51.14:565][614]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (104)
+[2022.03.27-19.51.14:565][614]LogModuleManager: Shutting down and abandoning module SteamVRInput (102)
+[2022.03.27-19.51.14:565][614]LogModuleManager: Shutting down and abandoning module SteamVR (100)
+[2022.03.27-19.51.14:566][614]LogHMD: Freeing OpenVRDLLHandle.
+[2022.03.27-19.51.14:566][614]LogModuleManager: Shutting down and abandoning module OculusHMD (98)
+[2022.03.27-19.51.14:566][614]LogModuleManager: Shutting down and abandoning module HairStrandsCore (96)
+[2022.03.27-19.51.14:566][614]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (94)
+[2022.03.27-19.51.14:566][614]LogModuleManager: Shutting down and abandoning module ChunkDownloader (92)
+[2022.03.27-19.51.14:566][614]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (90)
+[2022.03.27-19.51.14:566][614]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (86)
+[2022.03.27-19.51.14:566][614]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (84)
+[2022.03.27-19.51.14:567][614]LogModuleManager: Shutting down and abandoning module XMPP (79)
+[2022.03.27-19.51.14:568][614]LogModuleManager: Shutting down and abandoning module WebSockets (78)
+[2022.03.27-19.51.14:591][614]LogModuleManager: Shutting down and abandoning module HTTP (75)
+[2022.03.27-19.51.14:591][614]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.03.27-19.51.14:592][614]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBC4E2924-49C5-FC58-7F4B-659B8745A7A6%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.0-16682836%2B%2B%2BUE5%2BRelease-5.0-EarlyAccess&UserID=55d06cef49610986968885952badfdbc%7C01505f7298974875af5c9c74d7507606%7C5c83a3ed-8425-4f13-92f1-e8596a1797f9&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.03.27-19.51.14:592][614]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2022.03.27-19.51.14:602][614]LogModuleManager: Shutting down and abandoning module SSL (74)
+[2022.03.27-19.51.14:605][614]LogModuleManager: Shutting down and abandoning module WmfMedia (70)
+[2022.03.27-19.51.14:607][614]LogModuleManager: Shutting down and abandoning module Media (69)
+[2022.03.27-19.51.14:607][614]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2022.03.27-19.51.14:608][614]LogModuleManager: Shutting down and abandoning module ChaosCloth (64)
+[2022.03.27-19.51.14:608][614]LogModuleManager: Shutting down and abandoning module MLSDK (62)
+[2022.03.27-19.51.14:608][614]LogModuleManager: Shutting down and abandoning module MagicLeap (60)
+[2022.03.27-19.51.14:608][614]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (58)
+[2022.03.27-19.51.14:608][614]LogModuleManager: Shutting down and abandoning module NiagaraShader (56)
+[2022.03.27-19.51.14:608][614]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2022.03.27-19.51.14:608][614]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2022.03.27-19.51.14:608][614]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2022.03.27-19.51.14:608][614]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2022.03.27-19.51.14:609][614]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2022.03.27-19.51.14:609][614]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2022.03.27-19.51.14:609][614]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2022.03.27-19.51.14:609][614]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2022.03.27-19.51.14:609][614]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.03.27-19.51.14:609][614]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.03.27-19.51.14:611][614]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.03.27-19.51.14:611][614]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.03.27-19.51.14:611][614]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.03.27-19.51.14:611][614]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.03.27-19.51.14:611][614]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.03.27-19.51.14:613][614]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.03.27-19.51.14:613][614]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.03.27-19.51.14:613][614]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.03.27-19.51.14:613][614]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.03.27-19.51.14:614][614]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.03.27-19.51.14:614][614]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.03.27-19.51.14:614][614]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.03.27-19.51.14:614][614]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.03.27-19.51.14:614][614]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.03.27-19.51.14:614][614]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.03.27-19.51.14:614][614]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.03.27-19.51.14:614][614]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.03.27-19.51.14:616][614]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.03.27-19.51.14:625][614]LogD3D11RHI: Shutdown
+[2022.03.27-19.51.14:625][614]LogD3D11RHI: CleanupD3DDevice
+[2022.03.27-19.51.14:646][614]LogExit: Exiting.
+[2022.03.27-19.51.14:654][614]Log file closed, 03/27/22 21:51:14
