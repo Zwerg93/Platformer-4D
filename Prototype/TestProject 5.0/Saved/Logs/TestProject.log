@@ -5887,3 +5887,15 @@ Script call stack:
 [2022.03.27-13.56.30:551][865]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_Auto1D2C3177C497D2CD52BBFA5A1087C7BE3.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Autosaves/Game/Parkour/FirstLevelImpression_Auto1.umap'
 [2022.03.27-13.56.30:552][865]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Parkour/FirstLevelImpression' took 0.037
 [2022.03.27-13.56.30:552][865]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2022.03.27-15.31.55:190][920]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{e51f79d3-3df7-4c2d-955a-26804386391e}.
+[2022.03.27-15.31.55:190][920]LogAudioMixer: Resetting audio stream to device id 
+[2022.03.27-15.31.55:196][920]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-15.31.55:196][920]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-15.31.56:860][925]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{76f7747c-b489-4673-9de2-c39f231bb17c}.
+[2022.03.27-15.31.56:860][925]LogAudioMixer: Resetting audio stream to device id 
+[2022.03.27-15.31.56:865][925]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-15.31.56:865][925]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-15.32.00:877][937]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{f28bdef5-a644-4be3-8986-633909991d7c}.
+[2022.03.27-15.32.00:877][937]LogAudioMixer: Resetting audio stream to device id 
+[2022.03.27-15.32.00:882][937]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-15.32.00:882][937]LogAudioMixer: Display: 1: FrontRight
