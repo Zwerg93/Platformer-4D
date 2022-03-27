@@ -6573,3 +6573,256 @@ Script call stack:
 [2022.03.27-16.47.50:581][519]AssetCheck: New page: Asset Save: multiple assets
 [2022.03.27-16.47.50:581][519]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
 [2022.03.27-16.47.50:581][519]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.49.21:823][712]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.49.21:824][712]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.49.24:266][801]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.49.24:266][801]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.51.30:427][571]Cmd: TRANSACTION UNDO
+[2022.03.27-16.51.30:427][571]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.51.30:477][571]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 9003F020669F79C65BD674BD888793CF6EAE3366), compiling. 
+[2022.03.27-16.51.30:491][571]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.51.30:491][571]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.51.30:491][571]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.51.30:491][571]MaterialEditorStats: 
+[2022.03.27-16.51.30:491][571]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.51.30:611][573]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-16.51.30:611][573]LogShaderCompilers: Display: Total job queries 240, among them cache hits 200 (83.33%)
+[2022.03.27-16.51.30:611][573]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 19 distinct outputs (73.08%)
+[2022.03.27-16.51.30:611][573]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.27-16.51.30:611][573]LogShaderCompilers: Display: ================================================
+[2022.03.27-16.51.30:662][574]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.51.30:662][574]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.51.30:662][574]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.51.30:662][574]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.51.30:662][574]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.51.30:662][574]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.51.30:662][574]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.51.30:662][574]MaterialEditorStats: 
+[2022.03.27-16.51.30:663][574]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.51.59:506][647]Cmd: TRANSACTION UNDO
+[2022.03.27-16.51.59:506][647]LogEditorTransaction: Undo Scale Elements
+[2022.03.27-16.51.59:555][647]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: C21630C75A7B5E914CE775EB03203A0555AFCF50), compiling. 
+[2022.03.27-16.51.59:573][647]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.51.59:573][647]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.51.59:573][647]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.51.59:573][647]MaterialEditorStats: 
+[2022.03.27-16.51.59:573][647]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.51.59:745][650]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.51.59:745][650]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.51.59:745][650]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.51.59:745][650]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.51.59:745][650]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.51.59:745][650]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.51.59:745][650]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.51.59:745][650]MaterialEditorStats: 
+[2022.03.27-16.51.59:745][650]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.53.11:318][416]Cmd: TRANSACTION UNDO
+[2022.03.27-16.53.11:318][416]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.53.11:320][416]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 739A8D9ABE13C2CC651DA973116482FCD905F6EE), compiling. 
+[2022.03.27-16.53.11:352][416]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.53.11:352][416]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.53.11:352][416]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.53.11:352][416]MaterialEditorStats: 
+[2022.03.27-16.53.11:352][416]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.53.11:522][419]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.53.11:522][419]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.53.11:522][419]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.53.11:522][419]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.53.11:522][419]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.53.11:522][419]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.53.11:522][419]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.53.11:522][419]MaterialEditorStats: 
+[2022.03.27-16.53.11:522][419]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.55.18:001][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.03.27-16.55.18:040][133]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression4461209644B76D02C6AD73A21F7DCF2F.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.55.18:050][133]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.55.18:063][133]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltData11738BC0490C1A7C0DD513A140E25F4D.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.55.18:064][133]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.55.18:075][133]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.55.18:075][133]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.55.18:075][133]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.55.26:285][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.03.27-16.55.26:323][424]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpressionD8F5D8F24232D9173FB81D80AF167BC4.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.55.26:332][424]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.55.26:343][424]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltData42688A9B472D348A7A19A09FAC2B5B09.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.55.26:344][424]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.55.26:354][424]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.55.26:354][424]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.55.26:354][424]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.55.42:884][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.03.27-16.55.42:922][ 18]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression867B86F94A263931BD6095B3BA42EA74.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.55.42:931][ 18]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.55.42:943][ 18]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltDataBA219C9E411D651A79733E8FC85A9C25.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.55.42:944][ 18]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.55.42:954][ 18]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.55.42:954][ 18]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.55.42:954][ 18]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.55.54:625][483]LogStaticMesh: Display: Building static mesh Rectangle_F243CBC2...
+[2022.03.27-16.55.54:625][483]LogStaticMesh: Built static mesh [0.00s] /Game/Parkour/_GENERATED/Mapou/Rectangle_F243CBC2.Rectangle_F243CBC2
+[2022.03.27-16.55.56:427][575]LogStaticMesh: Display: Building static mesh Rectangle_B4036456...
+[2022.03.27-16.55.56:427][575]LogStaticMesh: Built static mesh [0.00s] /Game/Parkour/_GENERATED/Mapou/Rectangle_B4036456.Rectangle_B4036456
+[2022.03.27-16.55.57:447][626]LogStaticMesh: Display: Building static mesh Rectangle_59F90867...
+[2022.03.27-16.55.57:448][626]LogStaticMesh: Built static mesh [0.00s] /Game/Parkour/_GENERATED/Mapou/Rectangle_59F90867.Rectangle_59F90867
+[2022.03.27-16.55.58:962][706]Cmd: DELETE
+[2022.03.27-16.55.58:962][706]Cmd: ACTOR DELETE
+[2022.03.27-16.55.58:974][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.27-16.55.58:977][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.03.27-16.55.58:979][706]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2022.03.27-16.56.00:368][778]LogStaticMesh: Display: Building static mesh Rectangle_22BF7ADE...
+[2022.03.27-16.56.00:368][778]LogStaticMesh: Built static mesh [0.00s] /Game/Parkour/_GENERATED/Mapou/Rectangle_22BF7ADE.Rectangle_22BF7ADE
+[2022.03.27-16.56.01:887][856]LogStaticMesh: Display: Building static mesh Rectangle_FFA03CA7...
+[2022.03.27-16.56.01:887][856]LogStaticMesh: Built static mesh [0.00s] /Game/Parkour/_GENERATED/Mapou/Rectangle_FFA03CA7.Rectangle_FFA03CA7
+[2022.03.27-16.56.04:923][  8]LogStaticMesh: Display: Building static mesh Rectangle_2DC143E1...
+[2022.03.27-16.56.04:923][  8]LogStaticMesh: Built static mesh [0.00s] /Game/Parkour/_GENERATED/Mapou/Rectangle_2DC143E1.Rectangle_2DC143E1
+[2022.03.27-16.56.09:994][272]Cmd: DELETE
+[2022.03.27-16.56.09:994][272]Cmd: ACTOR DELETE
+[2022.03.27-16.56.09:999][272]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.27-16.56.09:999][272]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.27-16.56.09:999][272]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.27-16.56.09:999][272]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.27-16.56.10:002][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.03.27-16.56.10:004][272]LogEditorActor: Deleted 4 Actors (0.010 secs)
+[2022.03.27-16.56.31:414][223]Cmd: TRANSACTION UNDO
+[2022.03.27-16.56.31:414][223]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.56.31:464][223]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: DB65D23BE367958B796217C1229869AE82CFA9AA), compiling. 
+[2022.03.27-16.56.31:475][223]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.56.31:475][223]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.56.31:475][223]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.56.31:475][223]MaterialEditorStats: 
+[2022.03.27-16.56.31:475][223]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.56.31:563][225]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-16.56.31:563][225]LogShaderCompilers: Display: Total job queries 282, among them cache hits 242 (85.82%)
+[2022.03.27-16.56.31:563][225]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 19 distinct outputs (73.08%)
+[2022.03.27-16.56.31:563][225]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.27-16.56.31:563][225]LogShaderCompilers: Display: ================================================
+[2022.03.27-16.56.31:663][226]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.56.31:663][226]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.56.31:663][226]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.56.31:663][226]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.56.31:664][226]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.56.31:664][226]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.56.31:664][226]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.56.31:664][226]MaterialEditorStats: 
+[2022.03.27-16.56.31:664][226]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.56.31:945][230]Cmd: TRANSACTION UNDO
+[2022.03.27-16.56.31:945][230]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.56.31:947][230]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: BF81542FD257FBB2519FF824264CAD556D75A173), compiling. 
+[2022.03.27-16.56.31:949][230]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.56.31:949][230]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.56.31:949][230]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.56.31:949][230]MaterialEditorStats: 
+[2022.03.27-16.56.31:949][230]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.56.32:014][233]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.56.32:014][233]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.56.32:014][233]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.56.32:014][233]MaterialEditorStats: 
+[2022.03.27-16.56.32:014][233]MaterialEditorStats: Shader Count: 2
+[2022.03.27-16.56.32:042][234]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.56.32:042][234]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.56.32:042][234]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.56.32:042][234]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.56.32:042][234]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.56.32:042][234]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.56.32:042][234]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.56.32:042][234]MaterialEditorStats: 
+[2022.03.27-16.56.32:042][234]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.56.32:356][244]Cmd: TRANSACTION UNDO
+[2022.03.27-16.56.32:356][244]LogEditorTransaction: Undo Clicking on Actors
+[2022.03.27-16.56.32:407][244]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 65FDFE34AC1159C9542267532C074611A6556292), compiling. 
+[2022.03.27-16.56.32:409][244]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.56.32:409][244]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.56.32:409][244]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.56.32:409][244]MaterialEditorStats: 
+[2022.03.27-16.56.32:409][244]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.56.32:469][247]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.56.32:470][247]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.56.32:470][247]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.56.32:470][247]MaterialEditorStats: 
+[2022.03.27-16.56.32:470][247]MaterialEditorStats: Shader Count: 2
+[2022.03.27-16.56.32:498][248]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.56.32:498][248]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.56.32:498][248]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.56.32:498][248]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.56.32:498][248]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.56.32:498][248]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.56.32:498][248]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.56.32:498][248]MaterialEditorStats: 
+[2022.03.27-16.56.32:498][248]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.56.41:026][610]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Architecture/Wall_400x200.Wall_400x200
+[2022.03.27-16.56.45:610][819]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-16.56.45:610][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-16.57.00:162][553]Cmd: ACTOR HIDE SELECTED
+[2022.03.27-16.57.02:055][640]Cmd: TRANSACTION UNDO
+[2022.03.27-16.57.02:055][640]LogEditorTransaction: Undo Hide Selected
+[2022.03.27-16.57.02:096][640]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 1B41F3BA33BD25B7CFCEDD7118F1FA2D9FD6319A), compiling. 
+[2022.03.27-16.57.02:107][640]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.57.02:107][640]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.57.02:107][640]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.57.02:107][640]MaterialEditorStats: 
+[2022.03.27-16.57.02:107][640]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.57.02:297][643]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.57.02:297][643]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.57.02:297][643]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.57.02:297][643]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.57.02:297][643]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.57.02:297][643]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.57.02:297][643]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.57.02:297][643]MaterialEditorStats: 
+[2022.03.27-16.57.02:297][643]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.57.11:315][ 28]Cmd: ACTOR HIDE SELECTED
+[2022.03.27-16.57.12:889][105]Cmd: TRANSACTION UNDO
+[2022.03.27-16.57.12:889][105]LogEditorTransaction: Undo Hide Selected
+[2022.03.27-16.57.12:926][105]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 29ADCAD6E6520E1EB9CB5C683F0A1A0E0CE53A68), compiling. 
+[2022.03.27-16.57.12:939][105]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.57.12:939][105]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.57.12:939][105]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.57.12:939][105]MaterialEditorStats: 
+[2022.03.27-16.57.12:939][105]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.57.13:077][108]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.57.13:077][108]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.57.13:077][108]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.57.13:077][108]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.57.13:077][108]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.57.13:078][108]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.57.13:078][108]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.57.13:078][108]MaterialEditorStats: 
+[2022.03.27-16.57.13:078][108]MaterialEditorStats: Shader Count: 14
+[2022.03.27-17.05.43:153][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.03.27-17.05.43:195][226]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_Auto3494B58D64671E752DE3E1BBECD425509.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Autosaves/Game/Parkour/FirstLevelImpression_Auto3.umap'
+[2022.03.27-17.05.43:196][226]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Parkour/FirstLevelImpression' took 0.048
+[2022.03.27-17.05.43:196][226]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.048
+[2022.03.27-17.05.43:197][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Parkour/_GENERATED/Mapou/Rectangle_F243CBC2] ([1] browsable assets)...
+[2022.03.27-17.05.43:297][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_F243CBC2.Rectangle_F243CBC2]
+[2022.03.27-17.05.43:297][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Parkour/_GENERATED/Mapou/Rectangle_F243CBC2]
+[2022.03.27-17.05.43:302][226]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_F243CBC2_Auto3F4150AB24DA6C6B195F739AB74E2391C.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Autosaves/Game/Parkour/_GENERATED/Mapou/Rectangle_F243CBC2_Auto3.uasset'
+[2022.03.27-17.05.43:303][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Parkour/_GENERATED/Mapou/Rectangle_B4036456] ([1] browsable assets)...
+[2022.03.27-17.05.43:344][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_B4036456.Rectangle_B4036456]
+[2022.03.27-17.05.43:344][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Parkour/_GENERATED/Mapou/Rectangle_B4036456]
+[2022.03.27-17.05.43:350][226]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_B4036456_Auto33A4E75E5442609506A299E8E4F03613D.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Autosaves/Game/Parkour/_GENERATED/Mapou/Rectangle_B4036456_Auto3.uasset'
+[2022.03.27-17.05.43:351][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Parkour/_GENERATED/Mapou/Rectangle_59F90867] ([1] browsable assets)...
+[2022.03.27-17.05.43:392][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_59F90867.Rectangle_59F90867]
+[2022.03.27-17.05.43:392][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Parkour/_GENERATED/Mapou/Rectangle_59F90867]
+[2022.03.27-17.05.43:396][226]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_59F90867_Auto357B22CC44864D1236996009C2A7264F9.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Autosaves/Game/Parkour/_GENERATED/Mapou/Rectangle_59F90867_Auto3.uasset'
+[2022.03.27-17.05.43:397][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Parkour/_GENERATED/Mapou/Rectangle_22BF7ADE] ([1] browsable assets)...
+[2022.03.27-17.05.43:433][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_22BF7ADE.Rectangle_22BF7ADE]
+[2022.03.27-17.05.43:433][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Parkour/_GENERATED/Mapou/Rectangle_22BF7ADE]
+[2022.03.27-17.05.43:438][226]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_22BF7ADE_Auto353DFBFD6478E9008DA201787C2DA9BCB.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Autosaves/Game/Parkour/_GENERATED/Mapou/Rectangle_22BF7ADE_Auto3.uasset'
+[2022.03.27-17.05.43:439][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Parkour/_GENERATED/Mapou/Rectangle_FFA03CA7] ([1] browsable assets)...
+[2022.03.27-17.05.43:451][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_FFA03CA7.Rectangle_FFA03CA7]
+[2022.03.27-17.05.43:451][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Parkour/_GENERATED/Mapou/Rectangle_FFA03CA7]
+[2022.03.27-17.05.43:456][226]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_FFA03CA7_Auto358C413F14F0B8B36F6AA17ADC09D1D0A.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Autosaves/Game/Parkour/_GENERATED/Mapou/Rectangle_FFA03CA7_Auto3.uasset'
+[2022.03.27-17.05.43:457][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Parkour/_GENERATED/Mapou/Rectangle_2DC143E1] ([1] browsable assets)...
+[2022.03.27-17.05.43:470][226]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Parkour/_GENERATED/Mapou/Rectangle_2DC143E1.Rectangle_2DC143E1]
+[2022.03.27-17.05.43:470][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/Parkour/_GENERATED/Mapou/Rectangle_2DC143E1]
+[2022.03.27-17.05.43:474][226]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Rectangle_2DC143E1_Auto35E66173E468981EDF3C7F79050F2388C.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Autosaves/Game/Parkour/_GENERATED/Mapou/Rectangle_2DC143E1_Auto3.uasset'
+[2022.03.27-17.05.43:475][226]LogFileHelpers: Auto-saving content packages took 0.279
+[2022.03.27-19.32.18:244][513]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{e51f79d3-3df7-4c2d-955a-26804386391e}.
+[2022.03.27-19.32.18:244][513]LogAudioMixer: Resetting audio stream to device id 
+[2022.03.27-19.32.18:248][513]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-19.32.18:248][513]LogAudioMixer: Display: 1: FrontRight
