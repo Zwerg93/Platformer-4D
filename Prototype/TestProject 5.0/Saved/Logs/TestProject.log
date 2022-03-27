@@ -5899,3 +5899,677 @@ Script call stack:
 [2022.03.27-15.32.00:877][937]LogAudioMixer: Resetting audio stream to device id 
 [2022.03.27-15.32.00:882][937]LogAudioMixer: Display: 0: FrontLeft
 [2022.03.27-15.32.00:882][937]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-16.06.44:187][257]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.03.27-16.06.44:194][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.27-16.06.44:194][257]PIE: New page: PIE session: FirstLevelImpression (27.03.2022, 20:06:44)
+[2022.03.27-16.06.44:194][257]LogPlayLevel: Creating play world package: /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-16.06.44:204][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009163s)
+[2022.03.27-16.06.44:204][257]LogAIModule: Creating AISystem for world FirstLevelImpression
+[2022.03.27-16.06.44:205][257]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2022.03.27-16.06.44:205][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Parkour/FirstLevelImpression.FirstLevelImpression to /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression (0.010286s)
+[2022.03.27-16.06.44:208][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2022.03.27-16.06.44:208][257]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.03.27-16.06.44:208][257]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.27-16.06.44:208][257]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.27-16.06.44:208][257]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.27-16.06.44:208][257]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.27-16.06.44:208][257]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.27-16.06.44:208][257]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.27-16.06.44:208][257]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.27-16.06.44:209][257]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.27-16.06.44:209][257]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.27-16.06.44:209][257]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.27-16.06.44:211][257]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-16.06.44:211][257]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-16.06.44:219][257]LogAudioMixer: Display: Using Audio Device Lautsprecher (High Definition Audio Device)
+[2022.03.27-16.06.44:219][257]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.27-16.06.44:219][257]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.27-16.06.44:219][257]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.27-16.06.44:220][257]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.27-16.06.44:220][257]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.27-16.06.44:220][257]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.27-16.06.44:220][257]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.27-16.06.44:220][257]LogInit: FAudioDevice initialized.
+[2022.03.27-16.06.44:220][257]LogAudio: Display: Audio Device (ID: 21) registered with world 'FirstLevelImpression'.
+[2022.03.27-16.06.44:237][257]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.03.27-16.06.44:240][257]LogWorld: Bringing World /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression up for play (max tick rate 0) at 2022.03.27-18.06.44
+[2022.03.27-16.06.44:240][257]LogWorld: Bringing up level for play took: 0.003382
+[2022.03.27-16.06.44:240][257]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.03.27-16.06.44:242][257]PIE: Server logged in
+[2022.03.27-16.06.44:243][257]PIE: Play in editor total start time 0,05 seconds.
+[2022.03.27-16.08.50:867][444]LogScript: Warning: Script Msg: Divide by zero detected: 1199.999756 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-16.08.50:895][445]LogScript: Warning: Script Msg: Divide by zero detected: 1198.806396 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-16.08.50:922][446]LogScript: Warning: Script Msg: Divide by zero detected: 1197.340698 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-16.08.50:949][447]LogScript: Warning: Script Msg: Divide by zero detected: 1195.284180 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-16.08.50:975][448]LogScript: Warning: Script Msg: Divide by zero detected: 1192.803711 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-16.08.51:002][449]LogScript: Warning: Script Msg: Divide by zero detected: 1189.742432 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-16.08.51:028][450]LogScript: Warning: Script Msg: Divide by zero detected: 1186.182129 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-16.08.51:058][451]LogScript: Warning: Script Msg: Divide by zero detected: 1181.333496 / 0
+Script call stack:
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ReceiveTick
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ExecuteUbergraph_FirstPersonCharacter
+	Function /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:ClampHorizontalVelocity
+
+[2022.03.27-16.09.13:537][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-16.09.13:537][261]LogWorld: BeginTearingDown for /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-16.09.13:537][261]LogWorld: UWorld::CleanupWorld for FirstLevelImpression, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-16.09.13:538][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-16.09.13:566][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.27-16.09.13:579][261]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-16.09.13:582][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-16.09.13:582][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-16.09.13:583][261]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-16.09.13:588][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.03.27-16.09.13:591][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.03.27-16.09.13:620][262]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.03.27-16.10.13:376][356]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2022.03.27-16.10.17:345][510]Cmd: SELECT NONE
+[2022.03.27-16.10.20:838][653]Cmd: TRANSACTION UNDO
+[2022.03.27-16.10.20:838][653]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.12.44:773][613]LogSlate: Window 'Color Picker' being destroyed
+[2022.03.27-16.12.55:290][906]LogSlate: Window 'Color Picker' being destroyed
+[2022.03.27-16.13.42:625][238]Cmd: TRANSACTION UNDO
+[2022.03.27-16.13.42:625][238]LogEditorTransaction: Undo Create Actors
+[2022.03.27-16.14.32:998][644]LogStaticMesh: StaticMesh /Game/StarterContent/Shapes/Shape_Sphere.Shape_Sphere should be resaved to improve async compilation performance.
+[2022.03.27-16.14.33:092][644]LogActorFactory: Actor Factory created Shape_Sphere
+[2022.03.27-16.14.33:093][644]LogActorFactory: Actor Factory created Shape_Sphere
+[2022.03.27-16.14.34:871][692]LogActorFactory: Actor Factory created Shape_Sphere
+[2022.03.27-16.14.34:871][692]LogActorFactory: Actor Factory created Shape_Sphere
+[2022.03.27-16.14.57:240][312]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StarterContent/Materials/M_Metal_Steel.M_Metal_Steel
+[2022.03.27-16.14.57:248][312]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MaterialEditor' in 0.0004 seconds. Added 3 classes and 0 folders.
+[2022.03.27-16.14.57:252][312]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 0597A2B7A701C70F8867E5512699718D97DB405A), compiling. 
+[2022.03.27-16.14.57:349][312]LogTexture: Display: Waiting for textures to be ready 0/1 (EpicQuadPanorama_CC+EV1) ...
+[2022.03.27-16.14.57:461][312]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 15F9D4502EEA9F7EC02296E9B7FDB25021372B09), compiling. 
+[2022.03.27-16.14.57:465][312]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 11EB34783C2AB31FC4B1D82715285E84D5ADC16B), compiling. 
+[2022.03.27-16.14.57:467][312]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_79 in PCD3D_SM5, Default, SM5 (DDC key hash: B8211F8115D7D5BBCFD77013EB3E27779EA7BD43), compiling. 
+[2022.03.27-16.14.57:468][312]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_78 in PCD3D_SM5, Default, SM5 (DDC key hash: DD93D389A0740711B3AA8D0C4BC1B7306A8C4A43), compiling. 
+[2022.03.27-16.14.57:469][312]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_81 in PCD3D_SM5, Default, SM5 (DDC key hash: 84AA9EEB4817C78F272BCAE119CCA03F6DE9F781), compiling. 
+[2022.03.27-16.14.57:470][312]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_82 in PCD3D_SM5, Default, SM5 (DDC key hash: 94BBC59B692A06209C3D3C115C0D846493C2B688), compiling. 
+[2022.03.27-16.14.57:471][312]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_83 in PCD3D_SM5, Default, SM5 (DDC key hash: 25451D3020E57B69AD99CFF3496D791BCC6200C4), compiling. 
+[2022.03.27-16.14.57:472][312]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_27 in PCD3D_SM5, Default, SM5 (DDC key hash: AE15342496E66D7F60209C741F559468348D55DD), compiling. 
+[2022.03.27-16.14.57:491][312]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.14.57:491][312]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.14.57:491][312]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.14.57:491][312]MaterialEditorStats: 
+[2022.03.27-16.14.57:492][312]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.14.57:499][312]LogSlate: Took 0.003716 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.03.27-16.14.59:104][447]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-16.14.59:104][447]LogShaderCompilers: Display: Total job queries 30, among them cache hits 0 (0.00%)
+[2022.03.27-16.14.59:105][447]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2022.03.27-16.14.59:105][447]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.03.27-16.14.59:105][447]LogShaderCompilers: Display: ================================================
+[2022.03.27-16.14.59:684][478]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.14.59:684][478]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.14.59:684][478]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.14.59:684][478]MaterialEditorStats: 
+[2022.03.27-16.14.59:684][478]MaterialEditorStats: Shader Count: 2
+[2022.03.27-16.15.00:493][570]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.15.00:493][570]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.15.00:493][570]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.15.00:493][570]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.15.00:493][570]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.15.00:493][570]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.15.00:493][570]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.15.00:493][570]MaterialEditorStats: 
+[2022.03.27-16.15.00:493][570]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.15.24:009][117]Cmd: DELETE
+[2022.03.27-16.15.24:009][117]Cmd: ACTOR DELETE
+[2022.03.27-16.15.24:012][117]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.27-16.15.24:044][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.03.27-16.15.24:045][117]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2022.03.27-16.15.31:858][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.03.27-16.15.31:889][352]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression6D1330394964BD88DA8002BF6D5CF5E4.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.15.31:899][352]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.15.31:911][352]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltDataEFE064CA4EE967D25B19B0A93FB7FA8A.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.15.31:912][352]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.15.31:920][352]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.15.31:920][352]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.15.31:920][352]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.15.43:142][718]Cmd: DELETE
+[2022.03.27-16.15.43:142][718]Cmd: ACTOR DELETE
+[2022.03.27-16.15.43:145][718]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.27-16.15.43:170][718]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.03.27-16.15.43:171][718]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2022.03.27-16.16.53:754][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.03.27-16.16.53:785][136]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression87F9C9884DF5BEFC567FF5AEDD7F0960.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.16.53:794][136]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.16.53:806][136]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltDataE247129A46425FC3D4BDD1A8F3CDD2D6.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.16.53:807][136]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.16.53:816][136]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.16.53:816][136]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.16.53:816][136]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.17.43:556][ 16]Cmd: TRANSACTION UNDO
+[2022.03.27-16.17.43:556][ 16]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.17.43:613][ 16]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 3FE31555ADED9240647280D213F5661A3F39F8A0), compiling. 
+[2022.03.27-16.17.43:629][ 16]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.17.43:629][ 16]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.17.43:629][ 16]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.17.43:629][ 16]MaterialEditorStats: 
+[2022.03.27-16.17.43:629][ 16]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.17.43:806][ 19]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.17.43:806][ 19]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.17.43:806][ 19]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.17.43:806][ 19]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.17.43:806][ 19]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.17.43:806][ 19]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.17.43:806][ 19]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.17.43:806][ 19]MaterialEditorStats: 
+[2022.03.27-16.17.43:806][ 19]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.17.44:032][ 23]Cmd: TRANSACTION UNDO
+[2022.03.27-16.17.44:032][ 23]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.17.44:066][ 23]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: ACE1EF9BB5864CC6E44AE7B00BCFAFA57539F825), compiling. 
+[2022.03.27-16.17.44:070][ 23]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.17.44:070][ 23]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.17.44:070][ 23]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.17.44:070][ 23]MaterialEditorStats: 
+[2022.03.27-16.17.44:070][ 23]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.17.44:248][ 25]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.17.44:248][ 25]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.17.44:248][ 25]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.17.44:248][ 25]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.17.44:248][ 25]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.17.44:248][ 25]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.17.44:248][ 25]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.17.44:248][ 25]MaterialEditorStats: 
+[2022.03.27-16.17.44:248][ 25]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.17.49:014][216]Cmd: MODE GRID=1
+[2022.03.27-16.17.51:076][293]Cmd: TRANSACTION UNDO
+[2022.03.27-16.17.51:076][293]LogEditorTransaction: Undo Clicking on Elements
+[2022.03.27-16.17.51:127][293]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 845817A8317C3CD5121F05D997D4D9CA51A3F215), compiling. 
+[2022.03.27-16.17.51:145][293]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.17.51:145][293]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.17.51:145][293]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.17.51:145][293]MaterialEditorStats: 
+[2022.03.27-16.17.51:145][293]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.17.51:332][295]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.17.51:332][295]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.17.51:332][295]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.17.51:332][295]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.17.51:332][295]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.17.51:332][295]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.17.51:332][295]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.17.51:332][295]MaterialEditorStats: 
+[2022.03.27-16.17.51:332][295]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.17.54:412][407]Cmd: TRANSACTION UNDO
+[2022.03.27-16.17.54:412][407]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.17.54:467][407]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 4784DBE53A9E379E62CDC3ED1861F2E0F1146875), compiling. 
+[2022.03.27-16.17.54:479][407]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.17.54:479][407]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.17.54:479][407]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.17.54:479][407]MaterialEditorStats: 
+[2022.03.27-16.17.54:479][407]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.17.54:673][410]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.17.54:673][410]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.17.54:673][410]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.17.54:673][410]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.17.54:673][410]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.17.54:673][410]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.17.54:673][410]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.17.54:673][410]MaterialEditorStats: 
+[2022.03.27-16.17.54:673][410]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.18.12:134][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.03.27-16.18.12:168][ 86]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpressionAC41D60949B1E4FA60F118A47E5E7DF7.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.18.12:177][ 86]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.18.12:188][ 86]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltData60D2B9624A8D80F25D34C4855F0B7616.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.18.12:189][ 86]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.18.12:195][ 86]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.18.12:195][ 86]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.18.12:196][ 86]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.18.16:483][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.03.27-16.18.16:517][248]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpressionF152DE5D468F12AA3C57429E31521FC7.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.18.16:527][248]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.18.16:537][248]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltDataA9FC102D433CE6F360A2CBA7F9FAC231.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.18.16:539][248]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.18.16:546][248]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.18.16:546][248]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.18.16:546][248]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.20.12:014][625]LogSlate: Window 'Color Picker' being destroyed
+[2022.03.27-16.22.09:338][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.03.27-16.22.09:372][574]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression8F618AF0490E50200D1B88A21A043E71.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.22.09:381][574]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.22.09:393][574]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltData3586507F45CD5EB6DCE706BF0CF94F32.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.22.09:394][574]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.22.09:404][574]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.22.09:404][574]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.22.09:404][574]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.22.41:978][849]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.03.27-16.22.42:028][849]LogPlayLevel: Warning: Cancelling Open Transaction 'Edit Light Color' to start PIE session.
+[2022.03.27-16.22.42:029][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.27-16.22.42:029][849]PIE: New page: PIE session: FirstLevelImpression (27.03.2022, 20:22:42)
+[2022.03.27-16.22.42:029][849]LogPlayLevel: Creating play world package: /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-16.22.42:039][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009729s)
+[2022.03.27-16.22.42:040][849]LogAIModule: Creating AISystem for world FirstLevelImpression
+[2022.03.27-16.22.42:040][849]LogPlayLevel: PIE: World Init took: (0.001344s)
+[2022.03.27-16.22.42:040][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Parkour/FirstLevelImpression.FirstLevelImpression to /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression (0.011210s)
+[2022.03.27-16.22.42:043][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.03.27-16.22.42:045][849]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.03.27-16.22.42:045][849]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.27-16.22.42:045][849]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.27-16.22.42:045][849]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.27-16.22.42:045][849]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.27-16.22.42:045][849]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.27-16.22.42:045][849]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.27-16.22.42:045][849]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.27-16.22.42:045][849]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.27-16.22.42:045][849]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.27-16.22.42:045][849]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.27-16.22.42:048][849]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-16.22.42:048][849]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-16.22.42:054][849]LogAudioMixer: Display: Using Audio Device Lautsprecher (High Definition Audio Device)
+[2022.03.27-16.22.42:055][849]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.27-16.22.42:055][849]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.27-16.22.42:055][849]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.27-16.22.42:055][849]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.27-16.22.42:055][849]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.27-16.22.42:056][849]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.27-16.22.42:056][849]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.27-16.22.42:056][849]LogInit: FAudioDevice initialized.
+[2022.03.27-16.22.42:056][849]LogAudio: Display: Audio Device (ID: 22) registered with world 'FirstLevelImpression'.
+[2022.03.27-16.22.42:062][849]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.03.27-16.22.42:066][849]LogWorld: Bringing World /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression up for play (max tick rate 0) at 2022.03.27-18.22.42
+[2022.03.27-16.22.42:066][849]LogWorld: Bringing up level for play took: 0.003722
+[2022.03.27-16.22.42:066][849]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.03.27-16.22.42:069][849]PIE: Server logged in
+[2022.03.27-16.22.42:069][849]PIE: Play in editor total start time 0,086 seconds.
+[2022.03.27-16.22.50:917][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-16.22.50:917][137]LogWorld: BeginTearingDown for /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-16.22.50:917][137]LogWorld: UWorld::CleanupWorld for FirstLevelImpression, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-16.22.50:918][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-16.22.50:965][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.27-16.22.50:974][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-16.22.50:977][137]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.27-16.22.50:977][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-16.22.50:978][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-16.22.50:979][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-16.22.50:983][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.03.27-16.22.50:987][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.03.27-16.22.51:014][138]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.03.27-16.22.53:283][215]LogSlate: Window 'Color Picker' being destroyed
+[2022.03.27-16.23.15:981][948]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2022.03.27-16.23.15:981][948]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2022.03.27-16.23.19:613][ 70]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2022.03.27-16.23.19:614][ 70]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2022.03.27-16.23.38:492][748]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.03.27-16.23.38:498][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.27-16.23.38:498][748]PIE: New page: PIE session: FirstLevelImpression (27.03.2022, 20:23:38)
+[2022.03.27-16.23.38:498][748]LogPlayLevel: Creating play world package: /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-16.23.38:508][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009558s)
+[2022.03.27-16.23.38:509][748]LogAIModule: Creating AISystem for world FirstLevelImpression
+[2022.03.27-16.23.38:509][748]LogPlayLevel: PIE: World Init took: (0.000947s)
+[2022.03.27-16.23.38:509][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Parkour/FirstLevelImpression.FirstLevelImpression to /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression (0.010608s)
+[2022.03.27-16.23.38:520][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.03.27-16.23.38:522][748]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.03.27-16.23.38:522][748]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.27-16.23.38:522][748]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.27-16.23.38:522][748]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.27-16.23.38:522][748]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.27-16.23.38:522][748]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.27-16.23.38:522][748]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.27-16.23.38:522][748]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.27-16.23.38:522][748]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.27-16.23.38:522][748]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.27-16.23.38:522][748]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.27-16.23.38:524][748]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-16.23.38:524][748]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-16.23.38:531][748]LogAudioMixer: Display: Using Audio Device Lautsprecher (High Definition Audio Device)
+[2022.03.27-16.23.38:531][748]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.27-16.23.38:531][748]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.27-16.23.38:531][748]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.27-16.23.38:532][748]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.27-16.23.38:532][748]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.27-16.23.38:532][748]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.27-16.23.38:532][748]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.27-16.23.38:532][748]LogInit: FAudioDevice initialized.
+[2022.03.27-16.23.38:532][748]LogAudio: Display: Audio Device (ID: 23) registered with world 'FirstLevelImpression'.
+[2022.03.27-16.23.38:541][748]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.03.27-16.23.38:544][748]LogWorld: Bringing World /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression up for play (max tick rate 0) at 2022.03.27-18.23.38
+[2022.03.27-16.23.38:545][748]LogWorld: Bringing up level for play took: 0.003858
+[2022.03.27-16.23.38:545][748]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2022.03.27-16.23.38:547][748]PIE: Server logged in
+[2022.03.27-16.23.38:547][748]PIE: Play in editor total start time 0,05 seconds.
+[2022.03.27-16.23.45:977][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-16.23.45:977][  1]LogWorld: BeginTearingDown for /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-16.23.45:977][  1]LogWorld: UWorld::CleanupWorld for FirstLevelImpression, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-16.23.45:977][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-16.23.46:030][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.27-16.23.46:038][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-16.23.46:041][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-16.23.46:041][  1]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-16.23.46:042][  1]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-16.23.46:046][  1]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.03.27-16.23.46:050][  1]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.03.27-16.23.46:080][  2]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2022.03.27-16.23.59:495][445]Cmd: TRANSACTION UNDO
+[2022.03.27-16.23.59:495][445]LogEditorTransaction: Undo Rotate Elements
+[2022.03.27-16.23.59:553][445]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 8574DC1E1B29420D9B19018979A43E247547B61D), compiling. 
+[2022.03.27-16.23.59:559][445]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.23.59:559][445]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.23.59:559][445]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.23.59:559][445]MaterialEditorStats: 
+[2022.03.27-16.23.59:559][445]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.23.59:680][447]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-16.23.59:680][447]LogShaderCompilers: Display: Total job queries 114, among them cache hits 74 (64.91%)
+[2022.03.27-16.23.59:680][447]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 19 distinct outputs (73.08%)
+[2022.03.27-16.23.59:680][447]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.27-16.23.59:680][447]LogShaderCompilers: Display: ================================================
+[2022.03.27-16.23.59:733][448]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.23.59:733][448]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.23.59:733][448]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.23.59:733][448]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.23.59:733][448]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.23.59:733][448]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.23.59:733][448]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.23.59:733][448]MaterialEditorStats: 
+[2022.03.27-16.23.59:733][448]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.24.00:233][461]Cmd: SELECT NONE
+[2022.03.27-16.24.01:154][491]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.03.27-16.24.01:160][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.27-16.24.01:160][491]PIE: New page: PIE session: FirstLevelImpression (27.03.2022, 20:24:01)
+[2022.03.27-16.24.01:160][491]LogPlayLevel: Creating play world package: /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-16.24.01:169][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009359s)
+[2022.03.27-16.24.01:170][491]LogAIModule: Creating AISystem for world FirstLevelImpression
+[2022.03.27-16.24.01:170][491]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2022.03.27-16.24.01:170][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Parkour/FirstLevelImpression.FirstLevelImpression to /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression (0.010358s)
+[2022.03.27-16.24.01:173][491]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.03.27-16.24.01:175][491]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.03.27-16.24.01:175][491]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.27-16.24.01:175][491]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.27-16.24.01:175][491]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.27-16.24.01:175][491]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.27-16.24.01:175][491]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.27-16.24.01:175][491]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.27-16.24.01:175][491]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.27-16.24.01:175][491]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.27-16.24.01:175][491]LogAudio: Display: Using built-in audio occlusion.
+[2022.03.27-16.24.01:175][491]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.27-16.24.01:177][491]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.27-16.24.01:177][491]LogAudioMixer: Display: 1: FrontRight
+[2022.03.27-16.24.01:184][491]LogAudioMixer: Display: Using Audio Device Lautsprecher (High Definition Audio Device)
+[2022.03.27-16.24.01:185][491]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.27-16.24.01:185][491]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.27-16.24.01:185][491]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.27-16.24.01:185][491]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.27-16.24.01:185][491]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.27-16.24.01:186][491]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.27-16.24.01:186][491]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.27-16.24.01:186][491]LogInit: FAudioDevice initialized.
+[2022.03.27-16.24.01:186][491]LogAudio: Display: Audio Device (ID: 24) registered with world 'FirstLevelImpression'.
+[2022.03.27-16.24.01:215][491]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2022.03.27-16.24.01:218][491]LogWorld: Bringing World /Game/Parkour/UEDPIE_0_FirstLevelImpression.FirstLevelImpression up for play (max tick rate 0) at 2022.03.27-18.24.01
+[2022.03.27-16.24.01:218][491]LogWorld: Bringing up level for play took: 0.003759
+[2022.03.27-16.24.01:219][491]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2022.03.27-16.24.01:221][491]PIE: Server logged in
+[2022.03.27-16.24.01:221][491]PIE: Play in editor total start time 0,062 seconds.
+[2022.03.27-16.26.31:697][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-16.26.31:697][546]LogWorld: BeginTearingDown for /Game/Parkour/UEDPIE_0_FirstLevelImpression
+[2022.03.27-16.26.31:697][546]LogWorld: UWorld::CleanupWorld for FirstLevelImpression, bSessionEnded=true, bCleanupResources=true
+[2022.03.27-16.26.31:698][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-16.26.31:740][546]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.27-16.26.31:741][546]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.27-16.26.31:744][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.27-16.26.31:745][546]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-16.26.31:746][546]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.27-16.26.31:750][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.03.27-16.26.31:753][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.03.27-16.26.31:771][547]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2022.03.27-16.27.39:978][968]Cmd: TRANSACTION UNDO
+[2022.03.27-16.27.39:978][968]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.27.40:026][968]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 1694D556B2B5BD73684F63F59FB92F46E6440A91), compiling. 
+[2022.03.27-16.27.40:049][968]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.27.40:049][968]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.27.40:049][968]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.27.40:049][968]MaterialEditorStats: 
+[2022.03.27-16.27.40:049][968]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.27.40:168][970]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-16.27.40:168][970]LogShaderCompilers: Display: Total job queries 128, among them cache hits 88 (68.75%)
+[2022.03.27-16.27.40:168][970]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 19 distinct outputs (73.08%)
+[2022.03.27-16.27.40:168][970]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.27-16.27.40:168][970]LogShaderCompilers: Display: ================================================
+[2022.03.27-16.27.40:221][971]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.27.40:221][971]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.27.40:221][971]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.27.40:221][971]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.27.40:221][971]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.27.40:221][971]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.27.40:221][971]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.27.40:221][971]MaterialEditorStats: 
+[2022.03.27-16.27.40:221][971]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.28.07:336][937]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.03.27-16.28.07:371][937]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression4D7A181E41701B03C4D66185988A934D.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.28.07:381][937]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.28.07:391][937]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltDataADFB410F48A241C33AF30F88A0D52778.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.28.07:392][937]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.28.07:403][937]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.28.07:403][937]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.28.07:403][937]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.29.06:999][104]LogActorFactory: Actor Factory created Shape_Pipe
+[2022.03.27-16.29.07:000][104]LogActorFactory: Actor Factory created Shape_Pipe
+[2022.03.27-16.29.08:280][150]LogActorFactory: Actor Factory created Shape_Pipe
+[2022.03.27-16.29.08:281][150]LogActorFactory: Actor Factory created Shape_Pipe
+[2022.03.27-16.29.11:428][266]Cmd: TRANSACTION UNDO
+[2022.03.27-16.29.11:428][266]LogEditorTransaction: Undo Rotate Elements
+[2022.03.27-16.29.11:479][266]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: CF1867498BDC191F23EAB68E94A10AB5A80F4683), compiling. 
+[2022.03.27-16.29.11:494][266]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.29.11:494][266]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.29.11:494][266]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.29.11:494][266]MaterialEditorStats: 
+[2022.03.27-16.29.11:494][266]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.29.11:665][269]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.29.11:665][269]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.29.11:665][269]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.29.11:665][269]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.29.11:665][269]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.29.11:665][269]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.29.11:665][269]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.29.11:665][269]MaterialEditorStats: 
+[2022.03.27-16.29.11:665][269]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.30.03:119][145]Cmd: TRANSACTION UNDO
+[2022.03.27-16.30.03:119][145]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.30.03:170][145]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: A6B8C89120EABCDBC755493230500FFFE74EAD32), compiling. 
+[2022.03.27-16.30.03:191][145]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.30.03:191][145]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.30.03:191][145]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.30.03:191][145]MaterialEditorStats: 
+[2022.03.27-16.30.03:191][145]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.30.03:379][148]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.30.03:379][148]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.30.03:379][148]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.30.03:379][148]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.30.03:379][148]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.30.03:379][148]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.30.03:379][148]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.30.03:379][148]MaterialEditorStats: 
+[2022.03.27-16.30.03:379][148]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.30.48:611][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.03.27-16.30.48:647][745]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpressionC01CE17B41AA8463FA6B2A8B101601D0.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.30.48:657][745]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.30.48:668][745]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltDataA1CABC9148F097D0FDEA499E88AEC126.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.30.48:669][745]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.30.48:676][745]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.30.48:676][745]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.30.48:676][745]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
+[2022.03.27-16.32.04:852][450]Cmd: TRANSACTION UNDO
+[2022.03.27-16.32.04:852][450]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.32.04:915][450]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 03FE22B21A397C18D6D9D62ADF9C5696BF7FE057), compiling. 
+[2022.03.27-16.32.04:936][450]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.32.04:936][450]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.32.04:936][450]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.32.04:936][450]MaterialEditorStats: 
+[2022.03.27-16.32.04:936][450]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.32.05:093][452]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-16.32.05:093][452]LogShaderCompilers: Display: Total job queries 170, among them cache hits 130 (76.47%)
+[2022.03.27-16.32.05:093][452]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 19 distinct outputs (73.08%)
+[2022.03.27-16.32.05:093][452]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.27-16.32.05:093][452]LogShaderCompilers: Display: ================================================
+[2022.03.27-16.32.05:140][453]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.32.05:140][453]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.32.05:140][453]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.32.05:140][453]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.32.05:140][453]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.32.05:140][453]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.32.05:140][453]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.32.05:140][453]MaterialEditorStats: 
+[2022.03.27-16.32.05:140][453]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.35.13:669][988]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.35.13:669][988]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.35.14:666][ 24]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.35.14:666][ 24]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.35.57:763][652]Cmd: MODE GRID=0
+[2022.03.27-16.36.38:744][361]LogActorFactory: Actor Factory created Shape_Pipe
+[2022.03.27-16.36.38:744][361]LogActorFactory: Actor Factory created Shape_Pipe
+[2022.03.27-16.36.40:113][415]LogActorFactory: Actor Factory created Shape_Pipe
+[2022.03.27-16.36.40:114][415]LogActorFactory: Actor Factory created Shape_Pipe
+[2022.03.27-16.38.05:202][623]LogActorFactory: Actor Factory created Shape_Pipe_180
+[2022.03.27-16.38.05:203][623]LogActorFactory: Actor Factory created Shape_Pipe_180
+[2022.03.27-16.38.06:457][672]LogActorFactory: Actor Factory created Shape_Pipe_180
+[2022.03.27-16.38.06:457][672]LogActorFactory: Actor Factory created Shape_Pipe_180
+[2022.03.27-16.38.13:088][931]Cmd: TRANSACTION UNDO
+[2022.03.27-16.38.13:088][931]LogEditorTransaction: Undo Rotate Elements
+[2022.03.27-16.38.13:134][931]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 4B4D8C73385145A276E71249161C3ADAAF9726FD), compiling. 
+[2022.03.27-16.38.13:150][931]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.38.13:150][931]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.38.13:150][931]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.38.13:150][931]MaterialEditorStats: 
+[2022.03.27-16.38.13:150][931]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.38.13:269][933]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-16.38.13:269][933]LogShaderCompilers: Display: Total job queries 184, among them cache hits 144 (78.26%)
+[2022.03.27-16.38.13:269][933]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 19 distinct outputs (73.08%)
+[2022.03.27-16.38.13:269][933]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.27-16.38.13:269][933]LogShaderCompilers: Display: ================================================
+[2022.03.27-16.38.13:321][934]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.38.13:321][934]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.38.13:321][934]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.38.13:321][934]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.38.13:321][934]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.38.13:321][934]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.38.13:321][934]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.38.13:321][934]MaterialEditorStats: 
+[2022.03.27-16.38.13:321][934]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.38.14:239][960]Cmd: TRANSACTION UNDO
+[2022.03.27-16.38.14:239][960]LogEditorTransaction: Undo Create Actors
+[2022.03.27-16.38.14:277][960]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: E4023A3E6AE412CEF3CB4A69CC8EB55DF2513646), compiling. 
+[2022.03.27-16.38.14:281][960]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.38.14:281][960]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.38.14:281][960]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.38.14:281][960]MaterialEditorStats: 
+[2022.03.27-16.38.14:281][960]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.38.14:431][964]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.38.14:431][964]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.38.14:431][964]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.38.14:431][964]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.38.14:431][964]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.38.14:431][964]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.38.14:431][964]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.38.14:431][964]MaterialEditorStats: 
+[2022.03.27-16.38.14:431][964]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.38.17:289][ 58]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.38.17:290][ 58]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.38.18:379][100]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.38.18:379][100]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.40.48:700][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.03.27-16.40.48:740][771]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_Auto251AF153841135F7896135C94118AB996.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/Autosaves/Game/Parkour/FirstLevelImpression_Auto2.umap'
+[2022.03.27-16.40.48:741][771]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Parkour/FirstLevelImpression' took 0.044
+[2022.03.27-16.40.48:741][771]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.044
+[2022.03.27-16.42.26:378][322]Cmd: TRANSACTION UNDO
+[2022.03.27-16.42.26:378][322]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.42.26:431][322]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: 72DEC58B464F61DABDDFD2419A71601640A37176), compiling. 
+[2022.03.27-16.42.26:453][322]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.42.26:453][322]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.42.26:453][322]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.42.26:453][322]MaterialEditorStats: 
+[2022.03.27-16.42.26:453][322]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.42.26:589][324]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.27-16.42.26:589][324]LogShaderCompilers: Display: Total job queries 212, among them cache hits 172 (81.13%)
+[2022.03.27-16.42.26:590][324]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 19 distinct outputs (73.08%)
+[2022.03.27-16.42.26:590][324]LogShaderCompilers: Display: RAM used: 0.05 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2022.03.27-16.42.26:590][324]LogShaderCompilers: Display: ================================================
+[2022.03.27-16.42.26:642][325]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.42.26:642][325]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.42.26:642][325]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.42.26:642][325]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.42.26:642][325]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.42.26:642][325]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.42.26:642][325]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.42.26:642][325]MaterialEditorStats: 
+[2022.03.27-16.42.26:642][325]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.42.30:056][440]Cmd: TRANSACTION UNDO
+[2022.03.27-16.42.30:056][440]LogEditorTransaction: Undo Move Elements
+[2022.03.27-16.42.30:110][440]LogMaterial: Display: Missing cached shadermap for Preview:M_Metal_Steel in PCD3D_SM5, Default, SM5 (DDC key hash: F524CC0D751B744FACA2F1DE9B1BBA81288B68C6), compiling. 
+[2022.03.27-16.42.30:119][440]MaterialEditorStats: Texture samplers: 0/16
+[2022.03.27-16.42.30:119][440]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.42.30:119][440]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.42.30:119][440]MaterialEditorStats: 
+[2022.03.27-16.42.30:119][440]MaterialEditorStats: Shader Count: 0
+[2022.03.27-16.42.30:291][443]MaterialEditorStats: Base pass shader: 168 instructions
+[2022.03.27-16.42.30:291][443]MaterialEditorStats: Base pass shader with Surface Lightmap: 196 instructions
+[2022.03.27-16.42.30:291][443]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 242 instructions
+[2022.03.27-16.42.30:291][443]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2022.03.27-16.42.30:291][443]MaterialEditorStats: Texture samplers: 5/16
+[2022.03.27-16.42.30:291][443]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(5)
+[2022.03.27-16.42.30:291][443]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.03.27-16.42.30:291][443]MaterialEditorStats: 
+[2022.03.27-16.42.30:291][443]MaterialEditorStats: Shader Count: 14
+[2022.03.27-16.42.37:525][693]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.42.37:526][693]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.42.39:030][750]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.42.39:030][750]LogActorFactory: Actor Factory created Shape_Pipe_90
+[2022.03.27-16.43.07:971][850]Cmd: SELECT NONE
+[2022.03.27-16.47.50:509][519]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2022.03.27-16.47.50:549][519]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpressionF4575FEB4930DE940B2266B7E2D50BCB.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression.umap'
+[2022.03.27-16.47.50:559][519]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.47.50:570][519]LogSavePackage: Moving '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Saved/FirstLevelImpression_BuiltData799B668C49BBCA41EED37B9008E9134E.tmp' to '../../../../../Schule/Platformer-4D/Prototype/TestProject 5.0/Content/Parkour/FirstLevelImpression_BuiltData.uasset'
+[2022.03.27-16.47.50:571][519]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/Parkour/FirstLevelImpression_BuiltData
+[2022.03.27-16.47.50:581][519]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.27-16.47.50:581][519]LogContentValidation: Display: Validating World /Game/Parkour/FirstLevelImpression.FirstLevelImpression
+[2022.03.27-16.47.50:581][519]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Parkour/FirstLevelImpression_BuiltData.FirstLevelImpression_BuiltData
