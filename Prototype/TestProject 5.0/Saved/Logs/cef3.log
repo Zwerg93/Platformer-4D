@@ -24,3 +24,48 @@
 [0313/225238.362:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
 [0313/225238.362:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
 [0313/230646.989:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0326/110614.617:ERROR:os_crypt_win.cc(92)] Failed to decrypt: Schlüssel ist im angegebenen Status nicht gültig. (0x8009000B)
+[0326/110616.672:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0326/120238.622:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[0326/120238.623:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0326/120238.623:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 125
+[0326/120238.623:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
+[0326/120238.623:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
+[0326/120238.623:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
+[0326/120238.623:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
+[0326/120244.185:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 124
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 123
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 122
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 121
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 120
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
+[0326/120244.186:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
+[0326/120303.201:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[0326/120303.201:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0326/120303.201:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
+[0326/120303.201:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 124
+[0326/120303.201:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 123
+[0326/120303.202:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 122
+[0326/120303.202:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 121
+[0326/120303.202:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 120
+[0326/120303.202:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
+[0326/120303.202:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
+[0326/120303.202:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
+[0326/120303.202:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
+[0326/120606.058:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0326/120606.059:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0326/120609.406:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0326/120609.432:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0326/120852.789:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 989
+[0326/120853.050:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 993
+[0326/120853.050:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 991
+[0326/120853.050:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 995
+[0326/121733.734:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 5
+[0326/121741.821:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 9
+[0326/121741.821:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 11
+[0326/121807.549:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 13
