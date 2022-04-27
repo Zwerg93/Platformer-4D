@@ -115,3 +115,13 @@
 [0330/104011.869:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
 [0330/104011.869:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
 [0419/100535.009:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0420/094839.963:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0420/094847.566:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 89
+[0420/094847.567:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 99
+[0420/094847.567:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 105
+[0420/094847.567:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 107
+[0420/094847.568:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 109
+[0420/094847.568:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 113
+[0420/094847.568:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 111
+[0420/094847.568:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 115
+[0420/102409.503:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
