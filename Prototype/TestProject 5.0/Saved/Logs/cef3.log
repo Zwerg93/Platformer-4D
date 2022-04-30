@@ -125,3 +125,31 @@
 [0420/094847.568:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 111
 [0420/094847.568:WARNING:spdy_session.cc(3365)] Received HEADERS for invalid stream 115
 [0420/102409.503:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0430/160257.289:ERROR:os_crypt_win.cc(92)] Failed to decrypt: Schlüssel ist im angegebenen Status nicht gültig. (0x8009000B)
+[0430/160257.687:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0430/160257.687:ERROR:entry_impl.cc(1076)] No file for c103017e
+[0430/160257.687:WARNING:storage_block-inl.h(146)] Failed data load.
+[0430/160259.942:WARNING:value_store_frontend.cc(44)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
+[0430/160812.205:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[0430/160812.206:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0430/160812.206:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 125
+[0430/160812.206:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
+[0430/160812.206:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
+[0430/160812.206:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
+[0430/160812.206:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 127
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 102 to 125
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 104 to 124
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 106 to 123
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 103 to 122
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 105 to 121
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 109 to 120
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 1 to 14
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 3 to 13
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 5 to 12
+[0430/160824.251:WARNING:used_ids.h(55)] Duplicate id found. Reassigning from 6 to 11
+[0430/160824.251:ERROR:audio_rtp_receiver.cc(89)] AudioRtpReceiver::OnSetVolume: No audio channel exists.
+[0430/160835.010:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0430/160835.010:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
+[0430/160835.688:ERROR:batching_media_log.cc(38)] MediaEvent: {"error":"FFmpegDemuxer: no supported streams"}
+[0430/160835.688:ERROR:batching_media_log.cc(35)] MediaEvent: {"pipeline_error":14}
