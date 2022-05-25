@@ -12,7 +12,7 @@
     position: relative;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     clip-path: polygon(0 0, 0 100%, 80% 100%, 100% 50%, 100% 0);
-    z-index: 20;
+    z-index: 10;
 }
 
 .cut-corner-border:after {
