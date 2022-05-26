@@ -4,8 +4,8 @@ header {
     align-items: center;
     padding: 1rem 1.5rem;
     text-transform: uppercase;
-    font-family: unsteady-oversteer;
-    color: var(--text-color);
+    font-family: var(--font);
+    color: var(--primary);
 }
 
 header > .logo-left {
