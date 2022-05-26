@@ -1,13 +1,27 @@
+@font-face { font-family: unsteady-oversteer; src: url('unsteady\ oversteer.ttf'); } 
+
 * {
-    background: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+:root {
+    --bg-color: #272727;
+    --bg-var-color: #404040;
+    --primary: #00FFFF;
+    --accent: #FF00FF;
+    --text-color: #EEEEEE;
+    --font: unsteady-oversteer;
 }
 
 .cut-corners {
     --cs: 20px;
-    margin: 20vh 5vw 0 calc(5vw + 20%);
-    padding: 1rem 4rem;
     display: inline-block;
-    background: grey;
     position: relative;
     z-index: 10;
     clip-path: polygon(0 var(--cs), 0% 100%, calc(100% - var(--cs)) 100%, 100% calc(100% - var(--cs)), 100% 0%, var(--cs) 0);
@@ -15,9 +29,9 @@
 
 .ccb {
     --bw: 2px;
-    --bc: blue;
-    color: white;
-    background: black;
+    --bc: var(--primary);
+    color: var(--text-color);
+    background: var(--bg-color);
 }
 
 .ccb:after {
@@ -39,7 +53,7 @@
     transition: width .1s ease-in-out, height .1s ease-in-out, top .1s ease-in-out, left .1s ease-in-out;
 }
 
-.ccb:hover {
+.ccba:hover {
     --bw: 5px;
 }
 

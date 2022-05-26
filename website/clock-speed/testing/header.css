@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    text-transform: uppercase;
+    font-family: unsteady-oversteer;
+    color: var(--text-color);
+}
+
+header > .logo-left {
+    font-size: 2rem;
+}
+
+header > nav.nav-right {
+    padding: var(--bw);
+}
+
+header > nav.nav-right > a {
+    color: var(--primary);
+    padding: 1.2rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background .2s ease-in-out;
+}
+
+header > nav.nav-right > a:hover {
+    background: var(--bg-var-color);
+}
