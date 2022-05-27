@@ -1,14 +1,6 @@
 @font-face { font-family: unsteady-oversteer; src: url('unsteady\ oversteer.ttf'); } 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: var(--bg-color);
-}
+/**  General + Variable  **/
 
 :root {
     --bg-color: #272727;
@@ -19,6 +11,18 @@ body {
     --font: unsteady-oversteer;
     --font-text: Arial;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+/**  Cut - Corner Custom - Element **/
 
 .cut-corners {
     --cs: 20px;
@@ -83,6 +87,8 @@ body {
     background-color: rgba(0, 255, 255, 0.8);
     z-index: -10;
 }
+
+/** HTML - Elements **/
 
 main {
     width: 50%;
