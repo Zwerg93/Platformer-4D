@@ -1,19 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Clockspeed</title>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous">
+        </script>
+        <script> 
+            $(function(){
+            $("#header").load("header.html"); 
+            });
+        </script>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="header.css" />
     </head>
-
     <body>
-        <div class="cut-corners ccb ccb1">test</div>
 
-        <div class="cut-corners ccb ccb2">test</div>
+        <div id="header">
+        </div>
 
-        <br />
-        <div class="cut-corners">test</div>
+        <main>
+            <h1>clockspeed</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum.
+            </p>
+            <video src="" controls></video>
+
+            <button class="play-now cut-corners ccb ccb2">
+                play now
+                <div class="shadow"></div>
+            </button>
+
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                invidunt ut labore et dolore magna aliquyam erat, sed diam
+                voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum.
+            </p>
+        </main>
     </body>
 </html>
