@@ -108,6 +108,8 @@ main > h2{
     font-family: var(--font);
     text-transform: uppercase;
     text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
 }
 
 main p {
@@ -121,6 +123,10 @@ main > video {
     display: block;
     margin: 1rem auto;
     width: 60%;
+}
+main >.spacer{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 main > .play-now {
