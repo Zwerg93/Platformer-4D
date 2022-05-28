@@ -157,15 +157,15 @@ main > .play-now {
 
 /*** Devblog ***/
 /** Carts **/
-.db-cart{
+.db-card{
     width: 20vw;
     height: 25vw;
 }
-.db-cart > .db-cart-header{
+.db-card > .db-card-header{
     width: 100%;
     height: 50%;
 }
-.db-cart-header > img{
+.db-card-header > img{
     position:absolute; 
     top: var(--bw);
     left: var(--bw);
@@ -173,7 +173,7 @@ main > .play-now {
     height: calc(100%) - 2 * var(--bw);
     object-fit: cover;
 }
-.db-cart-content{
+.db-card-content{
     padding: 5%; 
 }
 
