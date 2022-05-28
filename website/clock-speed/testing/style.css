@@ -108,6 +108,7 @@ main > h2{
     font-family: var(--font);
     text-transform: uppercase;
     text-align: center;
+    font-size: 2.7rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
