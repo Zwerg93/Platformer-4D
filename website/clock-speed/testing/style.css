@@ -104,6 +104,11 @@ main > h1 {
     color: var(--primary);
     margin-bottom: 1rem;
 }
+main > h2{
+    font-family: var(--font);
+    text-transform: uppercase;
+    text-align: center;
+}
 
 main p {
     width: 80%;
