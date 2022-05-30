@@ -10,7 +10,14 @@ header {
 
 header > .logo-left {
     font-size: 2rem;
+    display: flex;
+    align-items: center;
 }
+
+header > .logo-left > .logo-img {
+    height: 3rem;
+    margin-right: 1rem;
+} 
 
 header > nav.nav-right {
     padding: var(--bw);
