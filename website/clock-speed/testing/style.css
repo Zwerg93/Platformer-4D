@@ -166,6 +166,10 @@ main > .play-now {
     display: flex; 
 }
 
+.db-card-content-callToAction{
+    font-size: 1.4rem;
+}
+
 .db-card{
     width: 100%;
     height: 100%;
