@@ -162,16 +162,21 @@ main > .play-now {
 
 /*** Devblog ***/
 /** Carts **/
+#db-card-container{
+    display: flex; 
+}
+
 .db-card{
-    width: 20vw;
-    height: 25vw;
+    width: 100%;
+    height: 100%;
+    margin: 2%;
 }
 .db-card > .db-card-header{
     width: 100%;
     height: 50%;
 }
 .db-card-header > img{
-    position:absolute; 
+    position:inherit; 
     top: var(--bw);
     left: var(--bw);
     width: calc(100% - 2 * var(--bw));
