@@ -198,6 +198,7 @@ main >.content{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    margin-bottom: 5.2rem;
 }
 .fourcollumns div p{
     display: block;
