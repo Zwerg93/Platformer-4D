@@ -193,21 +193,17 @@ main >.content{
     margin-right: auto;
 }
 .fourcollumns div{
-    
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .fourcollumns div img{
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
 }
 .fourcollumns div p{
-    
     display: block;
     margin-left: auto;
     margin-right: auto;
