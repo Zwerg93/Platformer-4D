@@ -210,7 +210,8 @@ main >.content{
 /*** Devblog ***/
 /** Carts **/
 #db-card-container{
-    display: flex; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .db-card-content-callToAction{
@@ -218,8 +219,6 @@ main >.content{
 }
 
 .db-card{
-    width: 100%;
-    height: 100%;
     margin: 2%;
 }
 .db-card > .db-card-header{
@@ -235,7 +234,6 @@ main >.content{
     object-fit: cover;
 }
 .db-card-content{
-    padding: 5%; 
 }
 .db-card-content > * {
     margin-bottom: 5%;
@@ -250,3 +248,12 @@ main >.content{
 }
 
 
+
+@media only screen and (max-width: 1000px) {
+    #db-card-container{
+        grid-template-columns: 1fr ;
+    }
+
+    .db-card-content{
+    }
+}
