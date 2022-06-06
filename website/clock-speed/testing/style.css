@@ -223,7 +223,6 @@ main >.content{
 }
 .db-card > .db-card-header{
     width: 100%;
-    height: 50%;
 }
 .db-card-header > img{
     position:inherit; 
@@ -234,6 +233,8 @@ main >.content{
     object-fit: cover;
 }
 .db-card-content{
+    height: 100%;
+    padding: 5% 10%;
 }
 .db-card-content > * {
     margin-bottom: 5%;
