@@ -253,9 +253,12 @@ main >.content{
 
 @media only screen and (max-width: 1000px) {
     #db-card-container{
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
     }
+}
 
-    .db-card-content{
+@media only screen and (max-width: 750px) {
+    main {
+        width: 80%;
     }
 }
