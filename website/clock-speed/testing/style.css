@@ -225,6 +225,7 @@ main >.content{
     width: 100%;
 }
 .db-card-header > img{
+    aspect-ratio: 16/10;
     position:inherit; 
     top: var(--bw);
     left: var(--bw);
