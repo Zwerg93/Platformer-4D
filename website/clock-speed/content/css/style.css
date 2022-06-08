@@ -1,0 +1,279 @@
+@font-face {
+    font-family: unsteady-oversteer;
+    src: url('../resources/unsteady\ oversteer.ttf');
+}
+
+/**  General + Variable  **/
+
+:root {
+    --bg-color: #272727;
+    --bg-var-color: #404040;
+    --primary: #00FFFF;
+    --accent: #FF00FF;
+    --text-color: #EEEEEE;
+    --font: unsteady-oversteer;
+    --font-text: Arial;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+/***  Class  ***/
+.primary-font {
+    font-family: var(--font);
+    text-transform: uppercase;
+}
+
+.primary-text {
+    font-family: var(--font-text);
+}
+
+
+.primary-color {
+    color: var(--primary);
+}
+
+.accent-color {
+    color: var(--accent);
+}
+
+/**  Cut - Corner Custom - Class **/
+
+.cut-corners {
+    --cs: 20px;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    clip-path: polygon(0 var(--cs), 0% 100%, calc(100% - var(--cs)) 100%, 100% calc(100% - var(--cs)), 100% 0%, var(--cs) 0);
+}
+
+.ccb {
+    --bw: 2px;
+    --bc: var(--primary);
+    color: var(--text-color);
+    background: var(--bg-color);
+    overflow: visible;
+}
+
+.ccb:after {
+    content: '';
+    background: var(--bc);
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+}
+
+.ccb::before {
+    content: '';
+    background: inherit;
+    position: absolute;
+    z-index: -1;
+    clip-path: inherit;
+    transition: width .1s ease-in-out, height .1s ease-in-out, top .1s ease-in-out, left .1s ease-in-out;
+}
+
+.ccba:hover {
+    --bw: 5px;
+}
+
+.ccb.ccb2:before {
+    top: var(--bw);
+    left: var(--bw);
+    width: calc(100% - 2 * var(--bw));
+    height: calc(100% - 2 * var(--bw));
+}
+
+.ccb.ccb1:before {
+    top: -1px;
+    left: -1px;
+    width: calc(100% - var(--bw) + 1px);
+    height: calc(100% - var(--bw) + 1px);
+}
+
+.ccb>.shadow {
+    clip-path: inherit;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-color: rgba(0, 255, 255, 0.8);
+    z-index: -10;
+}
+
+/** HTML - Elements **/
+
+main {
+    width: 50%;
+    margin: 1rem auto;
+    color: var(--text-color);
+}
+
+main>h1 {
+    font-family: var(--font);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+main>h2 {
+    font-family: var(--font);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.7rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+main>h3 {
+    font-family: var(--font);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+h4 {
+    font-family: var(--font);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+main>p {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0.8rem;
+    font-family: var(--font-text);
+}
+
+main>video {
+    display: block;
+    margin: 1rem auto;
+    width: 60%;
+}
+
+main>.spacer {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+main>.play-now {
+    display: block;
+    padding: 1.25rem 2.5rem;
+    border: none;
+    font-family: var(--font);
+    text-transform: uppercase;
+    color: var(--primary);
+    margin: 2rem auto 4rem;
+    font-size: 1.5rem;
+}
+
+main>.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.fourcollumns {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fourcollumns div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fourcollumns div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 5.2rem;
+}
+
+.fourcollumns div p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/*** Devblog ***/
+/** Carts **/
+#db-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.db-card-content-callToAction {
+    font-size: 1.4rem;
+}
+
+.db-card {
+    margin: 2%;
+}
+
+.db-card>.db-card-header {
+    width: 100%;
+}
+
+.db-card-header>img {
+    aspect-ratio: 16/10;
+    position: inherit;
+    top: var(--bw);
+    left: var(--bw);
+    width: calc(100% - 2 * var(--bw));
+    height: calc(100% - 2 * var(--bw));
+    object-fit: cover;
+}
+
+.db-card-content {
+    height: 100%;
+    padding: 5% 10%;
+}
+
+.db-card-content>* {
+    margin-bottom: 5%;
+}
+
+.db-card-content>h3 {
+    font-size: 1.4rem;
+}
+
+.db-card-content>p {
+    font-size: 1rem;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    #db-card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    main {
+        width: 80%;
+    }
+}
