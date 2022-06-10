@@ -21,6 +21,8 @@ header > .logo-left > .logo-img {
 
 header > nav.nav-right {
     padding: var(--bw);
+    display: flex;
+    flex-wrap: nowrap;d
 }
 
 header > nav.nav-right > a {
@@ -35,3 +37,11 @@ header > nav.nav-right > a:hover {
     background: var(--bg-var-color);
 }
 
+@media only screen and (max-width: 750px) {
+    header > .logo-left > .logo-text{
+        display: block;
+    }
+    header > .logo-left > .logo-text{
+        display:none; 
+    }
+}
