@@ -35,8 +35,3 @@ header > nav.nav-right > a:hover {
     background: var(--bg-var-color);
 }
 
-@media only screen and (max-width: 750px) {
-    header > .logo-left:last-child{
-        display:none;
-    }
-}
