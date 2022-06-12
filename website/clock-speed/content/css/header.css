@@ -105,6 +105,7 @@ header > nav.nav-right > a:hover {
     header > #nav-check:checked ~ .nav-right {
         height: calc(100vh - 50px);
         overflow-y: auto;
+        z-index: 99;
     }
 
     header > .logo-left > .logo-img {
