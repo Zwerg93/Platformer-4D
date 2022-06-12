@@ -227,8 +227,9 @@ main > .content {
 }
 
 .db-card-content-callToAction {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
+
 
 .db-card {
     margin: 2%;
