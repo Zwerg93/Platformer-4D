@@ -8,6 +8,10 @@ header {
     color: var(--primary);
 }
 
+header > #nav-check {
+    display: none;
+}
+
 header > .logo-left {
     font-size: 2rem;
     display: flex;
@@ -22,7 +26,7 @@ header > .logo-left > .logo-img {
 header > nav.nav-right {
     padding: var(--bw);
     display: flex;
-    flex-wrap: nowrap;d
+    flex-wrap: nowrap;
 }
 
 header > nav.nav-right > a {
@@ -38,36 +42,47 @@ header > nav.nav-right > a:hover {
 }
 
 @media only screen and (max-width: 750px) {
-    header > .logo-left > .logo-text{
+    header > .logo-left > .logo-text {
         display: block;
     }
-    header > .logo-left > .logo-text{
-        display:none;
+
+    header > .logo-left > .logo-text {
+        display: none;
     }
+
+}
+
+@media only screen and (max-width: 560px) {
     header > .nav-btn {
         display: inline-block;
         position: absolute;
         right: 0px;
         top: 0px;
     }
+
     header > .nav-btn > label {
         display: inline-block;
         width: 50px;
         height: 50px;
         padding: 13px;
     }
-    header > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+
+    header > .nav-btn > label:hover, .nav #nav-check:checked ~ .nav-btn > label {
         background-color: rgba(0, 0, 0, 0.3);
     }
+
     header > .nav-btn > label > span {
         display: block;
         width: 25px;
         height: 10px;
         border-top: 2px solid #eee;
     }
+
     header > .nav-right {
         position: absolute;
-        display: block;
+        display: flex;
+        flex-direction: column;
+
         width: 100%;
         background-color: #333;
         height: 0px;
@@ -76,19 +91,33 @@ header > nav.nav-right > a:hover {
         top: 50px;
         left: 0px;
     }
+
     header > .nav-right > a {
-        display: block;
+        text-align: right;
+        font-size: 5rem;
         width: 100%;
     }
+
     header > #nav-check:not(:checked) ~ .nav-right {
         height: 0px;
     }
+
     header > #nav-check:checked ~ .nav-right {
         height: calc(100vh - 50px);
         overflow-y: auto;
     }
 
+    header > .logo-left > .logo-img {
+        display: none;
+        display: none;
+    }
 
+    .ccb {
+        --bw: 0px
+    }
 
+    .cbb:after {
+        --bw: 2px
+    }
 
 }
