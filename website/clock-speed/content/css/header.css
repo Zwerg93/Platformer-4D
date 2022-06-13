@@ -41,7 +41,7 @@ header > nav.nav-right > a:hover {
     background: var(--bg-var-color);
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 850px) {
     header > .logo-left > .logo-text {
         display: block;
     }
