@@ -271,6 +271,9 @@ main > .content {
 
 }
 
+/***  Footer  ***/
+#footer{
+}
 
 @media only screen and (max-width: 1000px) {
     main {
