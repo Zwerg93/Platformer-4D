@@ -125,7 +125,7 @@ main > h1 {
     text-align: center;
     font-size: calc(1.5rem + 5vw);
     color: var(--primary);
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
 }
 
 main > h2 {
@@ -159,8 +159,8 @@ h4 {
 main > p {
     width: 80%;
     margin: 0 auto;
-    font-size: calc(.6rem + .5vw);
-    margin-bottom: 0.8rem;
+    font-size:1.89vh;
+    margin-bottom: 3rem;
     font-family: var(--font-text);
 }
 

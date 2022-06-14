@@ -54,6 +54,8 @@ header > nav.nav-right > a:hover {
 
 @media only screen and (max-width: 560px) {
     header > .nav-btn {
+        margin-top: 1rem;
+        margin-right: 1rem;
         display: inline-block;
         position: absolute;
         right: 0px;
@@ -108,10 +110,7 @@ header > nav.nav-right > a:hover {
         z-index: 99;
     }
 
-    header > .logo-left > .logo-img {
-        display: none;
-        display: none;
-    }
+
 
     header > .ccb {
         --bw: 0px
