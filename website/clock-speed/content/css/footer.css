@@ -4,4 +4,10 @@
     height: 100%;
     text-align: center;
     margin-top: 5rem;
+    color: var(--text-color);
+    font-size: 0.9rem;
+    padding: 2rem;
+}
+#footer-wrapper p {
+    padding: 0.3rem
 }
