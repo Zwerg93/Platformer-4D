@@ -110,7 +110,9 @@ header > nav.nav-right > a:hover {
         z-index: 99;
     }
 
-
+#cut-border{
+    margin-top: 1.1rem;
+}
 
     header > .ccb {
         --bw: 0px
