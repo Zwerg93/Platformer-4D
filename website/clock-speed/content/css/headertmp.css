@@ -17,12 +17,13 @@ header > .logo-left {
 header > .logo-left > .logo-img {
     height: 3rem;
     margin-right: 1rem;
-} 
+}
 
 header > nav.nav-right {
     padding: var(--bw);
     display: flex;
-    flex-wrap: nowrap;d
+    flex-wrap: nowrap;
+    d
 }
 
 header > nav.nav-right > a {
@@ -38,10 +39,11 @@ header > nav.nav-right > a:hover {
 }
 
 @media only screen and (max-width: 750px) {
-    header > .logo-left > .logo-text{
+    header > .logo-left > .logo-text {
         display: block;
     }
-    header > .logo-left > .logo-text{
-        display:none; 
+
+    header > .logo-left > .logo-text {
+        display: none;
     }
 }

@@ -113,13 +113,13 @@ header > nav.nav-right > a:hover {
         display: none;
     }
 
-    header >.ccb {
+    header > .ccb {
         --bw: 0px
     }
+
     header > nav.nav-right > a {
         font-size: 2rem;
     }
-
 
 
 }
