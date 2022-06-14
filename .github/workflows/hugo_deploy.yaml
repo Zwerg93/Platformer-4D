@@ -1,0 +1,30 @@
+name: Deploy Website to Server
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy_job:
+    name: Build and Deploy Website
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Hugo build
+      run: |
+        sudo snap install hugo --channel=extended
+        
+    - name: SSH Setup
+      uses: caberger/install-ssh-key@v1.0
+      with:
+        ssh-private-key:  ${{ secrets.KEY }}
+        user: ${{ secrets.SERVER_USER }}
+        server: ${{ secrets.SERVER }}
+        alias: platformer4d-server
+
+    - name: Test Connection
+      run: |
+        ssh platformer4d-server
+
+    - name: Rsync deployment
+      run: |
+        ls ~/
+        rsync -avz -e ssh --delete website/clock-speed/content platformer4d-server:/var/www/
