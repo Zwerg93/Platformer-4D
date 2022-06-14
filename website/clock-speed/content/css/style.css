@@ -150,7 +150,7 @@ h4 {
     font-family: var(--font);
     text-transform: uppercase;
     text-align: center;
-    font-size:calc(.75rem + 1.2vw);
+    font-size: calc(.75rem + 1.2vw);
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
@@ -159,7 +159,7 @@ h4 {
 main > p {
     width: 80%;
     margin: 0 auto;
-    font-size:calc(.6rem + .5vw);
+    font-size: calc(.6rem + .5vw);
     margin-bottom: 0.8rem;
     font-family: var(--font-text);
 }
@@ -272,7 +272,7 @@ main > .content {
 }
 
 /***  Footer  ***/
-#footer{
+#footer {
 }
 
 @media only screen and (max-width: 1000px) {
